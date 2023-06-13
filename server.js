@@ -9,6 +9,7 @@ const logger = require(`morgan`)
 const session = require(`express-session`)
 const passport = require(`passport`)
 
+
 require(`dotenv`).config()
 
 require(`./db/index`)
@@ -16,6 +17,7 @@ require(`./db/index`)
 require(`./db/passport`)
 
 const app = express()
+
 
 app.use(cors())
 app.use(express.json())
@@ -25,7 +27,7 @@ app.use(logger(`dev`))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false}))
 app.use(cookieParser())
-app.use(express.static(path.join(__dirname, `public`)))
+app.use(express.static(path.join(__dirname, `client`)))
 
 
 
@@ -47,7 +49,7 @@ app.get('/', (req, res) => {
   })
 
 
-app.use(`/test`, AppRouter)
+app.use(`/`, AppRouter)
 
 app.listen(PORT, () => {
     console.log(`Express server listening on port ${PORT}`)
