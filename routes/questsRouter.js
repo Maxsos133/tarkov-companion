@@ -3,6 +3,6 @@ const Router = express.Router()
 const controller = require(`../controllers/questController`)
 
 Router.get(`/`, controller.getQuests)
-Router.get(`/:id`, controller.getQuestsById)
+Router.get(`/:name`, controller.getQuestsByName)
 
 module.exports = Router

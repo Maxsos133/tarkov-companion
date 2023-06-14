@@ -1,10 +1,36 @@
 .login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 34px;
+    display: block;
+    justify-content: right;
+    text-align: right;
+    
   }
   
   .login img {
     height: 30px;
+  }
+
+  #loginCheck {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+  }
+
+  .traders {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .traders > div {
+    border: 1px solid black;
+  }
+
+  #Lightkeeper {
+    grid-column: span 4;
+  }
+
+  h4 {
+    max-height: 0px;
+    margin-top: 2px;
   }

@@ -4,7 +4,7 @@ const passport = require(`passport`)
 
 
 Router.get(`/`, function(req, res, next) {
-    res.redirect(`/quests`)
+    res.redirect(`/index.html`)
 })
 
 Router.get(`/auth/google`, passport.authenticate(
@@ -18,15 +18,19 @@ Router.get(`/auth/google`, passport.authenticate(
 Router.get(`/oauth2callback`, passport.authenticate(
     `google`,
     {
-        successRedirect: `/quests`,
-        failureRedirect:`/quests`
+        successRedirect: `/your-quests.html`,
+        failureRedirect:`/your-quests.html`
     }
 ))
 
 Router.get(`/logout`, function(req, res) {
     req.logout(function() {
-        res.redirect(`/quests`)
+        res.redirect(`/index.html`)
     })
 })
+
+
+
+  
 
 module.exports = Router

@@ -6,10 +6,12 @@ const getQuests = async (req, res) => {
     res.json(quest)
 }
 
-const getQuestsById = async (req, res) => {
+
+
+const getQuestsByName = async (req, res) => {
     try {
-        const { id } = req.params
-        const quest = await Quest.findById(id)
+        const { name } = req.params
+        const quest = await Quest.findOne({ name: name})
         if(!quest) throw Error(`quest not found`)
         res.json(quest)
     } catch (e){
@@ -20,5 +22,6 @@ const getQuestsById = async (req, res) => {
 
 module.exports = {
     getQuests,
-    getQuestsById
+
+    getQuestsByName
 }

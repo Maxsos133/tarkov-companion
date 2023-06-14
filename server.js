@@ -51,6 +51,45 @@ app.get('/', (req, res) => {
 
 app.use(`/`, AppRouter)
 
+app.get('/check-login', (req, res) => {
+  if (req.isAuthenticated()) {
+    res.json(req.user)
+  } else {
+    res.status(401).json({ error: 'User is not logged in' })
+  }
+})
+
+const { User } = require('./models/')
+app.post('/users/:userId', async (req, res) => {
+  try {
+    const { userId } = req.params
+    const { quest } = req.body
+
+    const user = await User.findById(userId)
+    if (!user) {
+      return res.status(404).json({ error: 'User not found.' })
+    }
+
+    const questExists = user.quests.some(existingQuest => existingQuest.name === quest.name);
+    if (questExists) {
+      return res.status(400).json({ error: 'Quest already added.' })
+    }
+
+    user.quests.push(quest)
+
+    const updatedUser = await user.save();
+
+    return res.json(updatedUser)
+  } catch (error) {
+    console.error('Failed to add quest:', error);
+    return res.status(500).json({ error: 'Failed to add quest.' });
+  }
+});
+
+
+
+
+
 app.listen(PORT, () => {
     console.log(`Express server listening on port ${PORT}`)
   })
