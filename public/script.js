@@ -6,7 +6,7 @@ const loginButton = `
 <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
 `
 const logoffButton = `
-<a href="/logout" class="login">LOG OFF</a>
+<a href="/logout" class="login" id="logoutBtn">LOG OFF</a>
 `
 async function showLogin() {
     if (isLoggedIn === false) {
@@ -42,4 +42,11 @@ fetch('/check-login')
 
 if (localStorage.getItem(`userId`) === null) {
   checkLogin()
+  loginDiv.innerHTML = loginButton
+} else if(localStorage.getItem(`userId`)) {
+  loginDiv.innerHTML = logoffButton
+  let logoutBtn = document.querySelector(`#logoutBtn`)
+  logoutBtn.addEventListener(`click`, function() {
+    localStorage.removeItem('userId')
+  })
 }
