@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose
-    .connect(`mongodb://127.0.0.1:27017/tarkovDatabase`)
+    .connect(`mongodb+srv://maxpavlenko133:apSQ7Nysol2aZpf8@cluster0.vvsqq1o.mongodb.net/?retryWrites=true&w=majority`)
     .then(() => {
         console.log('Successfully connected to MongoDB.')
     })

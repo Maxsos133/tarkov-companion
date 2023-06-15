@@ -59,7 +59,7 @@ app.get('/check-login', (req, res) => {
   }
 })
 
-const { User } = require('./models/')
+const { User } = require('./models')
 app.post('/users/:userId', async (req, res) => {
   try {
     const { userId } = req.params
