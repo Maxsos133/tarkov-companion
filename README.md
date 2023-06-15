@@ -9,7 +9,7 @@ Tarkov companion is an app that helps you track your quests in one place.
 - HTML
 - CSS
 - JavaScript
-- MongoDB
+- MongoDB and Atlas
 - Mongoose
 - Express JS
 - GitHub
@@ -20,3 +20,10 @@ Tarkov companion is an app that helps you track your quests in one place.
 ## Getting Started
 
 Link to the website - [Tarkov Companion](https://tarkov-companion.vercel.app/)
+
+## Next Steps:
+
+- More quests added.
+- More information about each quest such as rewards.
+- Add an interactable map with clickable pins of your selected quests selected, which show information on how to complete the quest.
+- Boss section.
