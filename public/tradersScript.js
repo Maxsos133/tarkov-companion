@@ -8,7 +8,7 @@ const ragmanDiv = document.querySelector(`#Ragman`)
 const jaegerDiv = document.querySelector(`#Jaeger`)
 const lightkeeperDiv = document.querySelector(`#Lightkeeper`)
 const questDiv = document.querySelector(`#selectedQuest`)
-const BASE_URL = `https://tarkov-companion-api.vercel.app/`
+const BASE_URL = `https://tarkov-companion.vercel.app/`
 
 const tradersArray = [praporDiv, therapistDiv, fenceDiv, skierDiv, peacekeeperDiv, mechanicDiv, ragmanDiv, jaegerDiv, lightkeeperDiv]
 

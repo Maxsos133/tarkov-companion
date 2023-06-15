@@ -1,5 +1,5 @@
 const yourQuestsDiv = document.querySelector(`.your-quests`)
-const BASE_URL = `https://tarkov-companion-api.vercel.app/`
+const BASE_URL = `https://tarkov-companion.vercel.app/`
 
 
 async function drawYourQuests() {
