@@ -8,14 +8,14 @@ const loginButton = `
 const logoffButton = `
 <a href="/logout" class="login">LOG OFF</a>
 `
-function showLogin() {
+async function showLogin() {
     if (isLoggedIn === false) {
         loginDiv.innerHTML = loginButton
     } else if (isLoggedIn === true) {
         loginDiv.innerHTML = logoffButton
     }
 }
-function checkLogin(){
+async function checkLogin(){
 fetch('/check-login')
   .then(response => {
     if (response.ok) {

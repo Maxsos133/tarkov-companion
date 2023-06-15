@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Bender';
+  src: url(fonts/Bender.woff2);
+}
+
+body {
+  font-family: 'Bender';
+  background-color: rgb(37, 37, 37);
+  color: rgb(255, 254, 230);
+}
+
+
 .login {
     display: block;
     justify-content: right;

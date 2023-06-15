@@ -18,8 +18,8 @@ Router.get(`/auth/google`, passport.authenticate(
 Router.get(`/oauth2callback`, passport.authenticate(
     `google`,
     {
-        successRedirect: `/your-quests.html`,
-        failureRedirect:`/your-quests.html`
+        successRedirect: `/index.html`,
+        failureRedirect:`/index.html`
     }
 ))
 

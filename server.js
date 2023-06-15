@@ -86,6 +86,27 @@ app.post('/users/:userId', async (req, res) => {
   }
 });
 
+app.delete('/users/:userId/quests/:questId', async (req, res) => {
+  const userId = req.params.userId
+  const questId = req.params.questId
+
+  try {
+    const user = await User.findById(userId)
+    if (!user) {
+      return res.status(404).json({ error: 'user not found' })
+    }
+    const questIndex = user.quests.findIndex(quest => quest._id === questId)
+    if (questIndex === -1) {
+      return res.status(404).json({ error: 'quest not found' })
+    }
+    user.quests.splice(questIndex, 1)
+    await user.save()
+    res.json({ message: 'quest removed' });
+  } catch (error) {
+    console.error('error removing quest:', error)
+    res.status(500).json({ error: 'server error' })
+  }
+})
 
 
 
