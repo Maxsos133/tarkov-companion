@@ -18,7 +18,7 @@ const main = async () => {
         {
             name: `Fence`,
             image: `https://assets.tarkov.dev/579dc571d53a0658a154fbec.webp`,
-            quests: [``]
+            quests: [`The Choice`]
         },
         {
             name: `Skier`,
@@ -48,7 +48,7 @@ const main = async () => {
         {
             name: `Lightkeeper`,
             image: `https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp`,
-            quests: [``]
+            quests: [`Network Provider - Part 1`]
         },               
     ]
     await Trader.insertMany(traders)

@@ -179,7 +179,46 @@ const main = async () => {
                     finish: `25`
                 }
             ]
-        }      
+        },
+        {
+            name: `Network Provider - Part 1`,
+            trader: `Lightkeeper`,
+            map: `Any location`,
+            objectives: [
+                {
+                    type: `give item`,
+                    description: `Hand over the found in raid Electronic components`,
+                    finish: `4`
+                },
+                {
+                    type: `give item`,
+                    description: `Hand over the found in raid Military COFDM Wireless Signal Transmitters`,
+                    finish: `4`
+                },
+                {
+                    type: `give item`,
+                    description: `Hand over the found in raid Gas analyzers`,
+                    finish: `4`
+                },
+                {
+                    type: `give item`,
+                    description: `Hand over the found in raid Broken GPhone smartphones`,
+                    finish: `4`
+                }
+            ]
+        },
+        {
+            name: `The Choice`,
+            trader: `Fence`,
+            map: `Any location`,
+            objectives: [
+                {
+                    type: `give item`,
+                    description: `Handover Secure container Epsilon`,
+                    finish: `1`
+                }
+            ]
+        } 
     ]
     await Quest.insertMany(quests)
     console.log(`Created quests!`)
