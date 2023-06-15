@@ -16,3 +16,7 @@ Tarkov companion is an app that helps you track your quests in one place.
 - Google Passport
 - Vercel
 - Node JS
+
+## Getting Started
+
+Link to the website - [Tarkov Companion](https://tarkov-companion.vercel.app/)
