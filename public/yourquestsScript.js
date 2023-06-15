@@ -2,7 +2,6 @@ const yourQuestsDiv = document.querySelector(`.your-quests`)
 
 
 async function drawYourQuests() {
-    await checkLogin()
     let loggedInUserId = localStorage.getItem(`userId`)
     if (loggedInUserId != null) {
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)

@@ -40,4 +40,6 @@ fetch('/check-login')
   })
 }
 
-checkLogin()
+if (localStorage.getItem(`userId`) === null) {
+  checkLogin()
+}
