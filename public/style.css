@@ -137,6 +137,7 @@ body {
   button:hover {
     border: 5px solid rgb(161, 165, 136);
     border-radius: 10px;
+    cursor: pointer;
   }
 
   button:active {
