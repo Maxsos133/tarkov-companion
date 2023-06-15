@@ -54,7 +54,7 @@ async function drawTraders() {
     let response = await axios.get(`${BASE_URL}traders`)
     for (let i = 0; i < response.data.length; i++) {
         let traderData = `
-        <img src="${response.data[i].image}"/>
+        <img class="traderImg" src="${response.data[i].image}"/>
         <h4>${response.data[i].name}</h4>
         <div>Quests:</div>
         `

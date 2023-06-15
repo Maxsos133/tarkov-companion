@@ -3,8 +3,8 @@ const yourQuestsDiv = document.querySelector(`.your-quests`)
 
 async function drawYourQuests() {
     let loggedInUserId = localStorage.getItem(`userId`)
-    if (loggedInUserId != null) {
-        let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
+    if (loggedInUserId == null) {
+        let response = await axios.get(`${BASE_URL}users/648b1ee00ce04c132ed8c501`)
         let yourQuestData = ``
         for (let i = 0; i < response.data.quests.length; i++) {
             let quest = response.data.quests[i]
@@ -19,6 +19,9 @@ async function drawYourQuests() {
                 <div>${objective.description} - 0/${objective.finish}</div>
                 `
             }
+            yourQuestData += `
+            <div id="line"></div>
+            `
         }
         yourQuestsDiv.innerHTML = yourQuestData
 
@@ -33,7 +36,7 @@ async function drawYourQuests() {
 
     } else if (loggedInUserId === null) {
         let yourQuestData = `
-        <h2>You are not Logged In</h2>
+        <h2 id="notLoggedIn">You are not Logged In</h2>
         `
         yourQuestsDiv.innerHTML = yourQuestData
     }
