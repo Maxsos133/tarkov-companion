@@ -6,7 +6,7 @@ async function drawYourQuests() {
     await checkLogin()
     let loggedInUserId = localStorage.getItem(`userId`)
     if (loggedInUserId != null) {
-        let response = await axios.get(`https://tarkov-companion.vercel.app/users/${loggedInUserId}`)
+        let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let yourQuestData = ``
         for (let i = 0; i < response.data.quests.length; i++) {
             let quest = response.data.quests[i]
@@ -43,7 +43,7 @@ async function drawYourQuests() {
 
 async function removeQuest(userId, questId) {
     try {
-        await axios.delete(`https://tarkov-companion.vercel.app/users/${userId}/quests/${questId}`)
+        await axios.delete(`${BASE_URL}users/${userId}/quests/${questId}`)
         console.log(`quest removed`)
     } catch (error) {
         console.error(`error removing quest:`, error)

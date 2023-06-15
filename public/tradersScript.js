@@ -13,7 +13,7 @@ const BASE_URL = `https://tarkov-companion.vercel.app/`
 const tradersArray = [praporDiv, therapistDiv, fenceDiv, skierDiv, peacekeeperDiv, mechanicDiv, ragmanDiv, jaegerDiv, lightkeeperDiv]
 
 async function questClick(quest) {
-    let response = await axios.get(`https://tarkov-companion.vercel.app/quests/${quest}`)
+    let response = await axios.get(`${BASE_URL}quests/${quest}`)
     
     let questData = `
     <button id="addQuest">ADD</button>
@@ -29,7 +29,7 @@ async function questClick(quest) {
         const selectedQuest = response.data
         let loggedInUserId = localStorage.getItem(`userId`)
         try {
-            const updateResponse = await axios.post(`https://tarkov-companion.vercel.app/users/${loggedInUserId}`, {
+            const updateResponse = await axios.post(`${BASE_URL}users/${loggedInUserId}`, {
                 quest: selectedQuest
             })
             const updatedUser = updateResponse.data
@@ -52,7 +52,7 @@ async function questClick(quest) {
 
 
 async function drawTraders() {
-    let response = await axios.get(`https://tarkov-companion.vercel.app/traders`)
+    let response = await axios.get(`${BASE_URL}traders`)
     for (let i = 0; i < response.data.length; i++) {
         let traderData = `
         <img src="${response.data[i].image}"/>
