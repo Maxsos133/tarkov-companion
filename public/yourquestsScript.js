@@ -137,10 +137,15 @@ mapSelectButtons.forEach(button => {
 
          const tooltip = document.createElement(`div`)
          tooltip.classList.add(`tooltip`)
-         const tooltipData = `
-         <h3 class="tooltip-name">${questName}</h3>
-         <div class="tooltip-description">${objectiveOne} 0/${finish}</div>
-         `
+         const tooltipData = ``
+         if (typeof objectiveOne !== 'undefined') {
+            tooltipData = `
+              <h3 class="tooltip-name">${questName}</h3>
+              <div class="tooltip-description">${objectiveOne} 0/${finish}</div>
+            `
+          } else {
+            tooltipData = `<h3 class="tooltip-name">${questName}</h3>`
+          }
          tooltip.innerHTML = tooltipData
          pinElement.appendChild(tooltip)
 
