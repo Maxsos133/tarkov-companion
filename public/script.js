@@ -1,4 +1,4 @@
-const BASE_URL = `https://tarkov-companion.vercel.app/`
+const BASE_URL = `https://tarkov-quests.vercel.app/`
 let isLoggedIn = false
 let user = null
 const loginDiv = document.querySelector(`#loginCheck`)
