@@ -948,7 +948,7 @@ const main = async () => {
       ],
     },
     {
-      name: "What is on the Flash Drive?",
+      name: "What is on the Flash Drive",
       trader: "Skier",
       map: "Any location",
       objectives: [
@@ -6292,29 +6292,17 @@ const main = async () => {
           },
         },
         {
-          type: "plantItem",
-          description:
-            "Stash SV-98 sniper rifle in the trash opposite of stairs on the 3rd floor or the dorm",
-          finish: "1",
-        },
-        {
-          type: "plantItem",
-          description:
-            "Stash Roler Submariner gold wrist watch in the trash opposite of stairs on the 3rd floor or the dorm",
-          finish: "1",
-        },
-        {
           type: "plantQuestItem",
           description:
-            "Stash the False flash drive in the trash opposite of stairs on the 3rd floor or the dorm",
+            "Stash the False flash drive, wrist watch and SV-98 in the trash opposite of stairs on the 3rd floor or the dorm",
           finish: "1",
+          location: {
+            map: "Customs",
+            longitude: "78",
+            latitude: "84",
+          },
         },
       ],
-      location: {
-        map: "Customs",
-        longitude: "78",
-        latitude: "84",
-      },
     },
     {
       name: "Setup",

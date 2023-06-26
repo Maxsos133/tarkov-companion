@@ -45,6 +45,7 @@ body {
   }
 
   .traders {
+    position: relative;
     text-align: center;
     justify-content: center;
     display: grid;
@@ -58,7 +59,13 @@ body {
     border: 4px solid rgb(161, 165, 136);
     border-radius: 10px;
     margin: 4px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
+
+  .traderImg:hover {
+    box-shadow: 0 0 10px 3px rgba(161, 165, 136, 0.8);
+  }
+
   .traders > div {
     margin-top: 10px;
   }
@@ -68,16 +75,20 @@ body {
     border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
   .quest:hover {
     border: 1px solid rgb(161, 165, 136);
     border-radius: 10px;
+    transform: scale(1.05) !important;
+    box-shadow: 0 0 10px 3px rgba(161, 165, 136, 0.8);
   }
 
   .quest:active {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
+    
   }
 
   #Lightkeeper {
@@ -105,15 +116,17 @@ body {
     box-sizing: border-box;
     border: 1px solid transparent;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
   a:hover {
     border: 1px solid rgb(161, 165, 136);
     border-radius: 10px;
+    transform: scale(1.05) !important;
   }
 
   a:active {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid transparent;
     border-radius: 10px;
   }
 
@@ -132,12 +145,14 @@ body {
     font-family: "Bender";
     font-weight: bold;
     font-size: 20px;
+    transition: transform 0.3s ease-in-out;
   }
 
   button:hover {
     border: 5px solid rgb(161, 165, 136);
     border-radius: 10px;
     cursor: pointer;
+    transform: scale(1.05);
   }
 
   button:active {
@@ -227,4 +242,40 @@ body {
 
   .tooltip-name {
     min-width: 250px;
+  }
+  
+  .quest-list {
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    border: 4px solid rgb(161, 165, 136);
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 300px;
+    overflow: hidden;
+    padding: 10px;
+    z-index: 9999;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+  }
+
+  .quest-list.active {
+    display: block;
+  }
+
+.traderDiv {
+  position: relative;
+}
+
+  .traderDiv:hover .quest-list {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  
+  .traderDiv:hover .traderImg {
+    box-shadow: 0 0 10px 3px rgba(161, 165, 136, 0.8);
+    transform: scale(1.05)
   }

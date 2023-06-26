@@ -8,8 +8,29 @@ const ragmanDiv = document.querySelector(`#Ragman`)
 const jaegerDiv = document.querySelector(`#Jaeger`)
 const lightkeeperDiv = document.querySelector(`#Lightkeeper`)
 const questDiv = document.querySelector(`#selectedQuest`)
+const traderDiv = document.querySelector('.traderDiv');
+const questList = document.querySelector('.quest-list');
 
-const tradersArray = [praporDiv, therapistDiv, fenceDiv, skierDiv, peacekeeperDiv, mechanicDiv, ragmanDiv, jaegerDiv, lightkeeperDiv]
+traderDiv.addEventListener('mouseenter', () => {
+  questList.classList.add('active')
+})
+
+traderDiv.addEventListener('mouseleave', () => {
+  questList.classList.remove('active')
+})
+
+
+const tradersArray = [
+    { element: praporDiv, name: 'Prapor' },
+    { element: therapistDiv, name: 'Therapist' },
+    { element: fenceDiv, name: 'Fence' },
+    { element: skierDiv, name: 'Skier' },
+    { element: peacekeeperDiv, name: 'Peacekeeper' },
+    { element: mechanicDiv, name: 'Mechanic' },
+    { element: ragmanDiv, name: 'Ragman' },
+    { element: jaegerDiv, name: 'Jaeger' },
+    { element: lightkeeperDiv, name: 'Lightkeeper' }
+  ]
 
 async function questClick(quest) {
     let response = await axios.get(`${BASE_URL}quests/${quest}`)
@@ -26,7 +47,7 @@ async function questClick(quest) {
     const addQuestButton = document.querySelector(`#addQuest`)
     addQuestButton.addEventListener(`click`, async () => {
         const selectedQuest = response.data
-        let loggedInUserId = localStorage.getItem(`userId`)
+        let loggedInUserId = localStorage.getItem(`userId`)                //  `648b1ee00ce04c132ed8c501` 
         try {
             const updateResponse = await axios.post(`${BASE_URL}users/${loggedInUserId}`, {
                 quest: selectedQuest
@@ -51,27 +72,34 @@ async function questClick(quest) {
 
 
 async function drawTraders() {
-    let response = await axios.get(`${BASE_URL}traders`)
-    for (let i = 0; i < response.data.length; i++) {
-        let traderData = `
-        <img class="traderImg" src="${response.data[i].image}"/>
-        <h4>${response.data[i].name}</h4>
-        <div>Quests:</div>
-        `
-        tradersArray[i].innerHTML += traderData
-        for (let j = 0; j < response.data[i].quests.length; j++) {
-            const quest = response.data[i].quests[j];
-            const questElement = document.createElement('div');
-            questElement.textContent = quest;
-            questElement.classList.add('quest');
-            questElement.addEventListener('click', () => questClick(quest));
-            tradersArray[i].appendChild(questElement);
-          }
-
-
-        
+    let response = await axios.get(`${BASE_URL}traders`);
+    let tradersData = response.data;
+  
+    for (let i = 0; i < tradersData.length; i++) {
+      let trader = tradersData[i];
+      let traderData = `
+        <img class="traderImg" src="${trader.image}" />
+        <h4>${trader.name}</h4>
+      `;
+      tradersArray[i].element.innerHTML = traderData;
+  
+      let questsDiv = document.createElement('div');
+      questsDiv.classList.add('quest-list');
+  
+      for (let j = 0; j < trader.quests.length; j++) {
+        const quest = trader.quests[j];
+        const questElement = document.createElement('div');
+        questElement.textContent = quest;
+        questElement.classList.add('quest');
+        questElement.addEventListener('click', () => questClick(quest));
+        questsDiv.appendChild(questElement);
+      }
+  
+      tradersArray[i].element.appendChild(questsDiv);
+  
+      // Add event listener for hover effect
+      
     }
-
-}
-
-drawTraders()
+  }
+  
+  drawTraders();
