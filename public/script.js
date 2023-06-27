@@ -3,10 +3,10 @@ let isLoggedIn = false
 let user = null
 const loginDiv = document.querySelector(`#loginCheck`)
 const loginButton = `
-<a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
+<a href="https://tarkov-companion-api.vercel.app/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
 `
 const logoffButton = `
-<a href="/logout" class="login" id="logoutBtn">LOG OFF</a>
+<a href="https://tarkov-companion-api.vercel.app/logout" class="login" id="logoutBtn">LOG OFF</a>
 `
 async function showLogin() {
     if (isLoggedIn === false) {
