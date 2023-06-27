@@ -109,7 +109,7 @@ body {
     font-weight: bold;
   }
 
-  a {
+  body nav a {
     text-decoration: none;
     color: inherit;
     padding: 0px 8px 0px 8px;
@@ -119,16 +119,18 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
-  a:hover {
+  body nav a:hover {
     border: 1px solid rgb(161, 165, 136);
     border-radius: 10px;
     transform: scale(1.05) !important;
   }
 
-  a:active {
+  body nav a:active {
     border: 1px solid transparent;
     border-radius: 10px;
   }
+
+  
 
   #selectedQuest {
     margin-top: 10px;
