@@ -18,9 +18,8 @@ async function showLogin() {
 async function checkLogin() {
   await fetch('https://tarkov-companion-api.vercel.app/check-login')
     .then(response => {
-      console.log(response.body)
       if (response.ok) {
-        return response.json();
+        return response.json(); // Parse response body as JSON
       } else {
         throw new Error('User is not logged in');
       }
@@ -40,6 +39,7 @@ async function checkLogin() {
       localStorage.removeItem('userId');
     });
 }
+
 
 
 if (localStorage.getItem(`userId`) === null) {
