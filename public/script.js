@@ -39,7 +39,7 @@ async function checkUserIdIf() {
   if (localStorage.getItem(`userId`) === null) {
     await setTimeout(async () => {
       await checkLogin();
-      loginDiv.innerHTML = logoffButton;
+      loginDiv.innerHTML = loginButton;
     }, 3000);
   } else if (localStorage.getItem(`userId`)) {
     await checkLogin(); // Wait for checkLogin() to complete
