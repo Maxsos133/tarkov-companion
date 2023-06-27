@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <iframe src="/path/cache"></iframe>
+<script>
+if (!location.hash) {
+location.hash = "#reloading";
+location.reload(true);
+} else {
+location.hash = "#reloaded";
+}
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarkov Companion</title>
@@ -11,7 +20,7 @@
 <body>
     <div class="index-body-image"></div>
     <nav>
-        <a href="index.html">Homeasdsadsad</a>
+        <a href="index.html">Home</a>
         <div id="loginCheck">
         
         </div>
