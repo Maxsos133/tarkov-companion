@@ -101,7 +101,7 @@ body {
     max-height: 0px;
     margin-top: 2px;
   }
-  nav {
+  .navi {
     font-size: 23px;
     margin-top: 30px;
     justify-content: center;
@@ -279,13 +279,5 @@ body {
   
   .traderDiv:hover .traderImg {
     box-shadow: 0 0 10px 3px rgba(161, 165, 136, 0.8);
-    transform: scale(1.05)
-  }
-
-  span {
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  }
-
-  span:hover {
     transform: scale(1.05)
   }
