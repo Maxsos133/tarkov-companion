@@ -23,6 +23,11 @@ async function checkLogin() {
       user = userData;
       
       localStorage.setItem('userId', user._id);
+      loginDiv.innerHTML = logoffButton
+    let logoutBtn = document.querySelector(`#logoutBtn`)
+    logoutBtn.addEventListener(`click`, function() {
+      localStorage.removeItem('userId')
+    })
     })
     .catch(error => {
       console.error('Error:', error);
@@ -30,6 +35,7 @@ async function checkLogin() {
       user = null;
       
       localStorage.removeItem('userId');
+      
     });
 }
 
@@ -41,11 +47,7 @@ async function checkUserIdIf () {
       loginDiv.innerHTML = loginButton;
     }, 2000);
   } else if(localStorage.getItem(`userId`)) {
-    loginDiv.innerHTML = logoffButton
-    let logoutBtn = document.querySelector(`#logoutBtn`)
-    logoutBtn.addEventListener(`click`, function() {
-      localStorage.removeItem('userId')
-    })
+    
   }
 }
 
