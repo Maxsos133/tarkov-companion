@@ -34,23 +34,19 @@ async function checkLogin() {
 }
 
 
-async function checkUserIdIf () {
-
-  setTimeout(async () => {
-    await checkLogin()
-  }, 2000)
-
-
-  if (localStorage.getItem(`userId`) === null) {
-      loginDiv.innerHTML = loginButton
-  } else if(localStorage.getItem(`userId`)) {
-      loginDiv.innerHTML = logoffButton
-    let logoutBtn = document.querySelector(`#logoutBtn`)
-    logoutBtn.addEventListener(`click`, function() {
-      localStorage.removeItem('userId')
-    })
-    
-  }
+async function checkUserIdIf() {
+  setTimeout(async function() {
+    await checkLogin();
+    if (localStorage.getItem('userId') === null) {
+      loginDiv.innerHTML = loginButton;
+    } else if (localStorage.getItem('userId')) {
+      loginDiv.innerHTML = logoffButton;
+      let logoutBtn = document.querySelector('#logoutBtn');
+      logoutBtn.addEventListener('click', function() {
+        localStorage.removeItem('userId');
+      });
+    }
+  }, 2000);
 }
 
-checkUserIdIf()
+checkUserIdIf();
