@@ -19,7 +19,8 @@ async function checkLogin() {
   await fetch('https://tarkov-companion-api.vercel.app/check-login')
     .then(response => {
       if (response.ok) {
-        return response.json(); // Parse response body as JSON
+        response.text().then(text => console.log('Response body:', text));
+
       } else {
         throw new Error('User is not logged in');
       }
