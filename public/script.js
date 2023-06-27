@@ -1,3 +1,4 @@
+export const fetchCache = 'force-no-store';
 const BASE_URL = `https://tarkov-quests.vercel.app/` // `http://localhost:3001/`
 let isLoggedIn = false
 let user = null
