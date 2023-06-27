@@ -47,7 +47,7 @@ async function checkUserIdIf () {
           logoutBtn.addEventListener(`click`, function() {
             localStorage.removeItem('userId')
           })
-      }, 1500);
+      }, 4500);
     }
   } else if(localStorage.getItem(`userId`)) {
     loginDiv.innerHTML = logoffButton
