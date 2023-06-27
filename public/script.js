@@ -15,30 +15,31 @@ async function showLogin() {
         loginDiv.innerHTML = logoffButton
     }
 }
-async function checkLogin(){
-await fetch('https://tarkov-companion-api.vercel.app/check-login')
-  .then(response => {
-    if (response.ok) {
-      return response.json()
-    } else {
-      throw new Error('User is not logged in')
-    }
-  })
-  .then(userData => {
-    console.log('User:', userData)
-    isLoggedIn = true
-    user = userData
-    
-    localStorage.setItem(`userId`, user._id)
-  })
-  .catch(error => {
-    console.error('Error:', error)
-    isLoggedIn = false
-    user = null
-    
-    localStorage.removeItem('userId')
-  })
+async function checkLogin() {
+  await fetch('https://tarkov-companion-api.vercel.app/check-login')
+    .then(response => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error('User is not logged in');
+      }
+    })
+    .then(userData => {
+      console.log('User:', userData);
+      isLoggedIn = true;
+      user = userData;
+      
+      localStorage.setItem('userId', user._id);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      isLoggedIn = false;
+      user = null;
+      
+      localStorage.removeItem('userId');
+    });
 }
+
 
 if (localStorage.getItem(`userId`) === null) {
   checkLogin()
