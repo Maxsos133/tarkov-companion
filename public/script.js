@@ -28,14 +28,14 @@ fetch('https://tarkov-companion-api.vercel.app/check-login')
     console.log('User:', userData)
     isLoggedIn = true
     user = userData
-    showLogin()
+    
     localStorage.setItem(`userId`, user._id)
   })
   .catch(error => {
     console.error('Error:', error)
     isLoggedIn = false
     user = null
-    showLogin()
+    
     localStorage.removeItem('userId')
   })
 }
