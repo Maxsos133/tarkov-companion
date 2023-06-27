@@ -58,10 +58,7 @@ app.use(`/`, AppRouter)
 
 app.get('/check-login', (req, res) => {
   if (req.isAuthenticated()) {
-    setTimeout(async () => {
-      res.json(req.user)
-    }, 1500);
-    
+    res.json(req.user)
   } else {
     res.status(401).json({ error: 'User is not logged in' })
   }

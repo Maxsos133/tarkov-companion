@@ -23,6 +23,11 @@ async function checkLogin() {
       user = userData;
       
       localStorage.setItem('userId', user._id);
+      loginDiv.innerHTML = logoffButton
+    let logoutBtn = document.querySelector(`#logoutBtn`)
+    logoutBtn.addEventListener(`click`, function() {
+      localStorage.removeItem('userId')
+    })
     })
     .catch(error => {
       console.error('Error:', error);
