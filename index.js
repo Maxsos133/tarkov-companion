@@ -52,11 +52,8 @@ app.get('/', (req, res) => {
 app.use(`/`, AppRouter)
 
 app.get('/check-login', (req, res) => {
-  if (req.isAuthenticated()) {
     res.json(req.user)
-  } else {
-    res.status(401).json({ error: 'User is not logged in' })
-  }
+  
 })
 
 const { User } = require('./models')
