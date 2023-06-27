@@ -34,7 +34,7 @@ async function checkLogin() {
       isLoggedIn = false;
       user = null;
       
-      localStorage.removeItem('userId');
+      
     });
 }
 
