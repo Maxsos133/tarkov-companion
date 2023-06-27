@@ -16,7 +16,7 @@ async function showLogin() {
     }
 }
 async function checkLogin(){
-fetch('/check-login')
+fetch('https://tarkov-companion-api.vercel.app/check-login')
   .then(response => {
     if (response.ok) {
       return response.json()
