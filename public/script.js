@@ -36,8 +36,10 @@ async function checkLogin() {
 
 async function checkUserIdIf () {
   if (localStorage.getItem(`userId`) === null) {
-    await checkLogin()
-    loginDiv.innerHTML = loginButton
+    await setTimeout(async () => {
+      await checkLogin()
+      loginDiv.innerHTML = loginButton
+    }, 2000)
   } else if(localStorage.getItem(`userId`)) {
     loginDiv.innerHTML = logoffButton
     let logoutBtn = document.querySelector(`#logoutBtn`)
