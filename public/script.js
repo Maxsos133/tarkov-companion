@@ -39,6 +39,7 @@ async function checkUserIdIf () {
     await setTimeout(async () => {
       await checkLogin();
       loginDiv.innerHTML = loginButton;
+      if(localStorage.getItem(`userId`)) {
       await setTimeout(async () => {
         loginDiv.innerHTML = logoffButton
           let logoutBtn = document.querySelector(`#logoutBtn`)
@@ -46,6 +47,7 @@ async function checkUserIdIf () {
             localStorage.removeItem('userId')
           })
       }, 1500);
+    }
     }, 3000);
   } else if(localStorage.getItem(`userId`)) {
     loginDiv.innerHTML = logoffButton
