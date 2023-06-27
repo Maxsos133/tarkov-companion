@@ -1,4 +1,4 @@
-const BASE_URL = `https://tarkov-test1.vercel.app/` // `http://localhost:3001/`
+const BASE_URL = `https://tarkov-help.vercel.app/` // `http://localhost:3001/`
 let isLoggedIn = false
 let user = null
 const loginDiv = document.querySelector(`#loginCheck`)
@@ -8,18 +8,11 @@ const loginButton = `
 const logoffButton = `
 <a href="/logout" class="login" id="logoutBtn">LOG OFF</a>
 `
-async function showLogin() {
-    if (isLoggedIn === false) {
-        loginDiv.innerHTML = loginButton
-    } else if (isLoggedIn === true) {
-        loginDiv.innerHTML = logoffButton
-    }
-}
 async function checkLogin() {
   await fetch('/check-login')
     .then(response => {
       if (response.ok) {
-        return response.json(); // Parse response body as JSON
+        return response.json(); 
       } else {
         throw new Error('User is not logged in');
       }
@@ -41,14 +34,17 @@ async function checkLogin() {
 }
 
 
-
-if (localStorage.getItem(`userId`) === null) {
-  checkLogin()
-  loginDiv.innerHTML = loginButton
-} else if(localStorage.getItem(`userId`)) {
-  loginDiv.innerHTML = logoffButton
-  let logoutBtn = document.querySelector(`#logoutBtn`)
-  logoutBtn.addEventListener(`click`, function() {
-    localStorage.removeItem('userId')
-  })
+async function checkUserIdIf () {
+  if (localStorage.getItem(`userId`) === null) {
+    await checkLogin()
+    loginDiv.innerHTML = loginButton
+  } else if(localStorage.getItem(`userId`)) {
+    loginDiv.innerHTML = logoffButton
+    let logoutBtn = document.querySelector(`#logoutBtn`)
+    logoutBtn.addEventListener(`click`, function() {
+      localStorage.removeItem('userId')
+    })
+  }
 }
+
+checkUserIdIf()
