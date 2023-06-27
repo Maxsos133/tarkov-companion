@@ -1,7 +1,11 @@
-await fetch("/path/cache", {
-  headers: { "Forced-Revalidate": 1 },
-  credentials: "include"
-  });
+async function clearCache () {
+  await fetch("/path/cache", {
+    headers: { "Forced-Revalidate": 1 },
+    credentials: "include"
+    });
+}
+clearCache()
+
 const BASE_URL = `https://tarkov-quests.vercel.app/` // `http://localhost:3001/`
 let isLoggedIn = false
 let user = null
