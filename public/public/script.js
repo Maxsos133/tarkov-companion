@@ -1,12 +1,12 @@
-const BASE_URL = `https://tarkov-companion-api.vercel.app/` // `http://localhost:3001/`
+const BASE_URL = `https://tarkov-test1.vercel.app/` // `http://localhost:3001/`
 let isLoggedIn = false
 let user = null
 const loginDiv = document.querySelector(`#loginCheck`)
 const loginButton = `
-<a href="https://tarkov-companion-api.vercel.app/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
+<a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
 `
 const logoffButton = `
-<a href="https://tarkov-companion-api.vercel.app/logout" class="login" id="logoutBtn">LOG OFF</a>
+<a href="/logout" class="login" id="logoutBtn">LOG OFF</a>
 `
 async function showLogin() {
     if (isLoggedIn === false) {
@@ -16,7 +16,7 @@ async function showLogin() {
     }
 }
 async function checkLogin() {
-  await fetch('https://tarkov-companion-api.vercel.app/check-login')
+  await fetch('/check-login')
     .then(response => {
       if (response.ok) {
         return response.json(); // Parse response body as JSON
