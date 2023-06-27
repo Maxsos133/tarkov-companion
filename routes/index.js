@@ -4,7 +4,7 @@ const passport = require(`passport`)
 
 
 Router.get(`/`, function(req, res, next) {
-    res.redirect(`/index.html`)
+    res.redirect(`https://tarkov-test.vercel.app/index.html`)
 })
 
 Router.get(`/auth/google`, passport.authenticate(
@@ -18,14 +18,14 @@ Router.get(`/auth/google`, passport.authenticate(
 Router.get(`/oauth2callback`, passport.authenticate(
     `google`,
     {
-        successRedirect: `/index.html`,
-        failureRedirect:`/index.html`
+        successRedirect: `https://tarkov-test.vercel.app/index.html`,
+        failureRedirect:`https://tarkov-test.vercel.app/index.html`
     }
 ))
 
 Router.get(`/logout`, function(req, res) {
     req.logout(function() {
-        res.redirect(`/index.html`)
+        res.redirect(`https://tarkov-test.vercel.app/index.html`)
     })
 })
 
