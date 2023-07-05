@@ -11,15 +11,6 @@ const questDiv = document.querySelector(`#selectedQuest`)
 const traderDiv = document.querySelector('.traderDiv');
 const questList = document.querySelector('.quest-list');
 
-traderDiv.addEventListener('mouseenter', () => {
-  questList.classList.add('active')
-})
-
-traderDiv.addEventListener('mouseleave', () => {
-  questList.classList.remove('active')
-})
-
-
 const tradersArray = [
     { element: praporDiv, name: 'Prapor' },
     { element: therapistDiv, name: 'Therapist' },
@@ -47,7 +38,7 @@ async function questClick(quest) {
     const addQuestButton = document.querySelector(`#addQuest`)
     addQuestButton.addEventListener(`click`, async () => {
         const selectedQuest = response.data
-        let loggedInUserId = localStorage.getItem(`userId`)                //  `648b1ee00ce04c132ed8c501` 
+        let loggedInUserId = `648b1ee00ce04c132ed8c501`              //  localStorage.getItem(`userId`)
         try {
             const updateResponse = await axios.post(`${BASE_URL}users/${loggedInUserId}`, {
                 quest: selectedQuest
@@ -97,7 +88,7 @@ async function drawTraders() {
   
       tradersArray[i].element.appendChild(questsDiv);
   
-      // Add event listener for hover effect
+      
       
     }
   }

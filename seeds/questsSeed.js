@@ -19,6 +19,12 @@ const main = async () => {
           type: "giveItem",
           description: "Obtain and hand over MP-133 12ga shotguns",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "MP-133 12ga pump-action shotgun",
+              quantity: "2"
+            }
+          ],
         },
       ],
     },
@@ -36,6 +42,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the first aid kits",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Salewa first aid kit",
+              quantity: "3"
+            }
+          ],
         },
       ],
     },
@@ -52,7 +64,14 @@ const main = async () => {
             map: "Customs",
             longitude: "55.5",
             latitude: "49",
+            
           },
+          itemsRequired: [
+            {
+              name: "Machinery key",
+              quantity: "1"
+            }
+          ],
         },
         {
           type: "giveQuestItem",
@@ -110,11 +129,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the found in raid BNTI Module-3M body armor",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "BNTI Module-3M body armor",
+              quantity: "1"
+            }
+          ],
         },
         {
           type: "giveItem",
           description: "Hand over the found in raid TOZ-106 shotgun",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "TOZ-106 20ga bolt-action shotgun",
+              quantity: "1"
+            }
+          ],
         },
       ],
     },
@@ -133,6 +164,12 @@ const main = async () => {
             longitude: "61.5",
             latitude: "82.5",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 206 key",
+              quantity: "1"
+            }
+          ],
         },
         {
           type: "extract",
@@ -154,13 +191,23 @@ const main = async () => {
         },
         {
           type: "plantItem",
-          description: "Stash the SV-98 sniper rifle in the boat",
+          description: "Stash the SV-98 sniper rifle and the multitool in the boat",
           finish: "1",
-        },
-        {
-          type: "plantItem",
-          description: "Stash the multitool in the boat",
-          finish: "1",
+          location: {
+            map: "Shoreline",
+            longitude: "34.3",
+            latitude: "83.3",
+          },
+          itemsRequired: [
+            {
+              name: "SV-98 7.62x54R bolt-action sniper rifle",
+              quantity: "1"
+            },
+            {
+              name: "Leatherman Multitool",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -168,11 +215,6 @@ const main = async () => {
           finish: "1",
         },
       ],
-      location: {
-        map: "Shoreline",
-        longitude: "34.3",
-        latitude: "83.3",
-      },
     },
     {
       name: "Only Business",
@@ -212,22 +254,46 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the found in raid Electronic components",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Electronic components",
+              quantity: "4"
+            },
+          ],
         },
         {
           type: "giveItem",
           description:
             "Hand over the found in raid Military COFDM Wireless Signal Transmitters",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Military COFDM Wireless Signal Transmitter",
+              quantity: "4"
+            },
+          ],
         },
         {
           type: "giveItem",
           description: "Hand over the found in raid Gas analyzers",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Gas analyzer",
+              quantity: "4"
+            },
+          ],
         },
         {
           type: "giveItem",
           description: "Hand over the found in raid Broken GPhone smartphones",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Broken GPhone smartphone",
+              quantity: "4"
+            },
+          ],
         },
       ],
     },
@@ -240,6 +306,12 @@ const main = async () => {
           type: "giveItem",
           description: "Handover Secure container Epsilon",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Secure container Epsilon",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -265,16 +337,34 @@ const main = async () => {
           type: "giveItem",
           description: "Find Iskra ration packs in raid",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Iskra ration pack",
+              quantity: "3"
+            },
+          ],
         },
         {
           type: "giveItem",
           description: "Find Emelya rye croutons in raid",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Emelya rye croutons",
+              quantity: "2"
+            },
+          ],
         },
         {
           type: "giveItem",
           description: "Find Cans of beef stew (Large) in raid",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Can of beef stew (Large)",
+              quantity: "2"
+            },
+          ],
         },
       ],
     },
@@ -286,36 +376,44 @@ const main = async () => {
         {
           type: "plantItem",
           description:
-            "Stash an Iskra ration pack in the ZB-016 bunker on Woods",
+            "Stash an Iskra ration pack and Bottle of water in the ZB-016 bunker on Woods",
           finish: "1",
           location: {
             map: "Woods",
             longitude: "73.1",
             latitude: "67.2",
           },
+          itemsRequired: [
+            {
+              name: "Iskra ration pack",
+              quantity: "1"
+            },
+            {
+              name: "Bottle of water (0.6L)",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "plantItem",
           description:
-            "Stash a Bottle of water (0.6L) in the ZB-016 bunker on Woods",
-          finish: "1",
-        },
-        {
-          type: "plantItem",
-          description:
-            "Stash an Iskra ration pack in the ZB-014 bunker on Woods",
+            "Stash an Iskra ration pack and Bottle of water in the ZB-014 bunker on Woods",
           finish: "1",
           location: {
             map: "Woods",
             longitude: "16.5",
             latitude: "70",
           },
-        },
-        {
-          type: "plantItem",
-          description:
-            "Stash a Bottle of water (0.6L) in the ZB-014 bunker on Woods",
-          finish: "1",
+          itemsRequired: [
+            {
+              name: "Iskra ration pack",
+              quantity: "1"
+            },
+            {
+              name: "Bottle of water (0.6L)",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -2117,6 +2215,12 @@ const main = async () => {
             longitude: "93.2",
             latitude: "22",
           },
+          itemsRequired: [
+            {
+              name: "Factory emergency exit key",
+              quantity: "1"
+            }
+          ]
         },
         {
           type: "visit",
@@ -2127,6 +2231,12 @@ const main = async () => {
             longitude: "67",
             latitude: "67",
           },
+          itemsRequired: [
+            {
+              name: "Factory emergency exit key",
+              quantity: "1"
+            }
+          ]
         },
         {
           type: "visit",
@@ -2137,6 +2247,12 @@ const main = async () => {
             longitude: "34",
             latitude: "89",
           },
+          itemsRequired: [
+            {
+              name: "Factory emergency exit key",
+              quantity: "1"
+            }
+          ]
         },
         {
           type: "visit",

@@ -244,6 +244,8 @@ body {
 
   .tooltip-name {
     min-width: 250px;
+    margin: 0px;
+    padding: 0px;
   }
   
   .quest-list {
@@ -281,3 +283,12 @@ body {
     box-shadow: 0 0 10px 3px rgba(161, 165, 136, 0.8);
     transform: scale(1.05)
   }
+
+.item-required-image {
+  width: 40px;
+  padding-top: 15px;
+}
+
+.item-required-name {
+  font-size: 8px;
+}

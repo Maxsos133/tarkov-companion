@@ -15,7 +15,7 @@ const mapDiv = document.querySelector(`#map`)
 
 
 async function drawYourQuests() {
-    let loggedInUserId = localStorage.getItem(`userId`)                // `648b1ee00ce04c132ed8c501`  
+    let loggedInUserId = `648b1ee00ce04c132ed8c501`               //   localStorage.getItem(`userId`) 
     if (loggedInUserId != null) {
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let yourQuestData = ``
@@ -96,7 +96,7 @@ mapSelectButtons.forEach(button => {
             e.preventDefault()
         })
 
-        let loggedInUserId = localStorage.getItem(`userId`)              // `648b1ee00ce04c132ed8c501`
+        let loggedInUserId = `648b1ee00ce04c132ed8c501`              //     localStorage.getItem(`userId`)
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let quests = response.data.quests
 
@@ -119,51 +119,56 @@ mapSelectButtons.forEach(button => {
                         const map = objective.location.map
                         const objectiveOne = objective.description
                         const finish = objective.finish
+                        const items = objective.itemsRequired
                         if (map === buttonText) {
-                        addPinMark(longitude, latitude, questName, objectiveOne, finish)
+                        addPinMark(longitude, latitude, questName, objectiveOne, finish, items)
                         }
                     }
                 })
             }
         })
 
-        function addPinMark(longitude, latitude, questName, objectiveOne, finish) {
-            const pinElement = document.createElement('div');
-         pinElement.classList.add('pin')
-         pinElement.classList.add('red')
-         pinElement.style.top = `${latitude}%`
-         pinElement.style.left = `${longitude}%`
-         pinContainer.appendChild(pinElement)
-
-         const tooltip = document.createElement(`div`)
-         tooltip.classList.add(`tooltip`)
-         const tooltipData = `
-         <h3 class="tooltip-name">${questName}</h3>
-         <div class="tooltip-description">${objectiveOne} 0/${finish}</div>
-         `
-         tooltip.innerHTML = tooltipData
-         pinElement.appendChild(tooltip)
-
-         pinContainer.appendChild(pinElement)
-
-
-
-
-
-         pinElement.addEventListener('click', function () {
-            console.log(`--------------------`)
-            console.log(`Left: ${pinElement.style.left}`)
-            console.log(`Top: ${pinElement.style.top}`)
-            
-            pinElement.classList.toggle('red')
-            pinElement.classList.toggle('green')
-            const currentColor = pinElement.classList.contains('red') ? 'red' : 'green'
-            console.log('Current color:', currentColor)
-         })
-
-
-
+        async function addPinMark(longitude, latitude, questName, objectiveOne, finish, items) {
+            const pinElement = document.createElement('div')
+            pinElement.classList.add('pin')
+            pinElement.classList.add('red')
+            pinElement.style.top = `${latitude}%`
+            pinElement.style.left = `${longitude}%`
+            pinContainer.appendChild(pinElement)
+        
+            const tooltip = document.createElement(`div`)
+            tooltip.classList.add(`tooltip`)
+            const tooltipData = `
+                <h3 class="tooltip-name">${questName}</h3>
+                <div class="tooltip-description">${objectiveOne} 0/${finish}</div>
+                <div class="items-required"></div>
+            `
+            tooltip.innerHTML = tooltipData
+            pinElement.appendChild(tooltip)
+        
+            const itemsRequiredDiv = tooltip.querySelector('.items-required')
+            items.forEach(async (item) => {
+                const itemResponse = await axios.get(`${BASE_URL}items/${item.name}`)
+                const itemDiv = document.createElement('div')
+                itemDiv.innerHTML = `
+                    <img class="item-required-image" src="${itemResponse.data.image}"/>
+                    <div class="item-required-name" >${itemResponse.data.name}</div>
+                `
+                itemsRequiredDiv.appendChild(itemDiv)
+            })
+        
+            pinElement.addEventListener('click', function () {
+                console.log(`--------------------`)
+                console.log(`Left: ${pinElement.style.left}`)
+                console.log(`Top: ${pinElement.style.top}`)
+        
+                pinElement.classList.toggle('red')
+                pinElement.classList.toggle('green')
+                const currentColor = pinElement.classList.contains('red') ? 'red' : 'green'
+                console.log('Current color:', currentColor)
+            })
         }
+        
 
         mapImg.addEventListener(`panzoomzoom`, updatePinMarks)
         mapImg.addEventListener(`panzoompan`, updatePinMarks)
