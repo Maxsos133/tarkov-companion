@@ -15,7 +15,7 @@ const mapDiv = document.querySelector(`#map`)
 
 
 async function drawYourQuests() {
-    let loggedInUserId = `648b1ee00ce04c132ed8c501`               //   localStorage.getItem(`userId`) 
+    let loggedInUserId = localStorage.getItem(`userId`)         //   localStorage.getItem(`userId`)  `648b1ee00ce04c132ed8c501`
     if (loggedInUserId != null) {
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let yourQuestData = ``
@@ -96,7 +96,7 @@ mapSelectButtons.forEach(button => {
             e.preventDefault()
         })
 
-        let loggedInUserId = `648b1ee00ce04c132ed8c501`              //     localStorage.getItem(`userId`)
+        let loggedInUserId = localStorage.getItem(`userId`)              //   `648b1ee00ce04c132ed8c501`
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let quests = response.data.quests
 
@@ -147,15 +147,17 @@ mapSelectButtons.forEach(button => {
             pinElement.appendChild(tooltip)
         
             const itemsRequiredDiv = tooltip.querySelector('.items-required')
-            items.forEach(async (item) => {
-                const itemResponse = await axios.get(`${BASE_URL}items/${item.name}`)
-                const itemDiv = document.createElement('div')
-                itemDiv.innerHTML = `
-                    <img class="item-required-image" src="${itemResponse.data.image}"/>
-                    <div class="item-required-name" >${itemResponse.data.name}</div>
-                `
-                itemsRequiredDiv.appendChild(itemDiv)
-            })
+            if (items && items.length > 0) {
+                for (const item of items) {
+                    const itemResponse = await axios.get(`${BASE_URL}items/${item.name}`)
+                    const itemDiv = document.createElement('div')
+                    itemDiv.innerHTML = `
+                        <img class="item-required-image" src="${itemResponse.data.image}"/>
+                        <div class="item-required-name" >${itemResponse.data.name}</div>
+                    `
+                    itemsRequiredDiv.appendChild(itemDiv)
+                }
+            }
         
             pinElement.addEventListener('click', function () {
                 console.log(`--------------------`)

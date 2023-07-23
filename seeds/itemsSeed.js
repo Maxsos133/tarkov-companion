@@ -6,13 +6,6 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 const main = async () => {
   const items = [
     {
-      name: "Colt M4A1 5.56x45 assault rifle",
-      description:
-        "The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.",
-      image:
-        "https://assets.tarkov.dev/5447a9cd4bdc2dbd208b4567-grid-image.webp",
-    },
-    {
       name: "5.56x45mm M855 ammo pack (30 pcs)",
       description: "A pack of 5.56x45 mm M855 ammo, 30 rounds.",
       image:
@@ -606,13 +599,6 @@ const main = async () => {
         "A standard-issue muzzle device for the SV-98 bolt-action sniper rifle.",
       image:
         "https://assets.tarkov.dev/560e620e4bdc2d724b8b456b-grid-image.webp",
-    },
-    {
-      name: "Kalashnikov AK-74N 5.45x39 assault rifle",
-      description:
-        "AK-74N (Avtomat Kalashnikova 74 Nochnoy - Kalashnikov's Automatic rifle 74 Night) was developed in 1970 by M. T. Kalashnikov, became a further evolution of AKM due to adoption of the new 5.45x39 ammunition by the military. The key design difference from the standard AK-74 is a side mount for optical and night scopes.",
-      image:
-        "https://assets.tarkov.dev/5644bd2b4bdc2d3b4c8b4572-grid-image.webp",
     },
     {
       name: "FORT Kiver-M bulletproof helmet",
@@ -3410,7 +3396,7 @@ const main = async () => {
     },
     {
       name: "Toolset",
-      description: "A repairman’s bag with a set of different tools.",
+      description: "A repairman bag with a set of different tools.",
       image:
         "https://assets.tarkov.dev/590c2e1186f77425357b6124-grid-image.webp",
     },
@@ -6448,7 +6434,7 @@ const main = async () => {
         "https://assets.tarkov.dev/5aa2b9aee5b5b00015693121-grid-image.webp",
     },
     {
-      name: "Kinda cowboy hat",
+      name: "Cowboy hat",
       description: "Yeeeeeeee-haaaaaaaaaaaaw! Or not...",
       image:
         "https://assets.tarkov.dev/5aa2b9ede5b5b000137b758b-grid-image.webp",
@@ -7690,13 +7676,6 @@ const main = async () => {
         "Vulcan MG is a 3rd generation night vision scope with a 3.5x magnification manufactured by Armasight.",
       image:
         "https://assets.tarkov.dev/5b3b6e495acfc4330140bd88-grid-image.webp",
-    },
-    {
-      name: "TT-33 7.62x25 TT pistol (Golden)",
-      description:
-        "A legendary pistol that has seen numerous military conflicts throughout the years and is still in service in certain regions of the world, in one variation or another. This one is a classic TT-33, the most mass-produced version. It features a Browning short-recoil tilting-barrel system, but other than that, the construction design is very unique - it is purposefully simple, single-action, and no safety measures except half-cock notch, which makes it be able to withstand horrible operating abuse. Thanks to the powerful 7.62x25 cartridge and relatively long barrel, the TT boasts high muzzle velocity, penetration, and impressive accuracy, even over long distances. A special gold edition.",
-      image:
-        "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-grid-image.webp",
     },
     {
       name: "Nightforce Magmount 30mm ring scope mount",

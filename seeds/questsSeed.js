@@ -530,6 +530,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over Reshala's Golden TT",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "TT-33 7.62x25 TT pistol (Golden)",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -812,6 +818,12 @@ const main = async () => {
             longitude: "89.5",
             latitude: "65",
           },
+          itemsRequired: [
+            {
+              name: "Tarcone Director's office key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "plantQuestItem",
@@ -880,6 +892,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the found in raid Salty Dog beef sausage",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Salty Dog beef sausage",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -898,6 +916,12 @@ const main = async () => {
             longitude: "97",
             latitude: "20",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -909,6 +933,12 @@ const main = async () => {
             longitude: "55.5",
             latitude: "48",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -920,6 +950,12 @@ const main = async () => {
             longitude: "33",
             latitude: "15",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -931,6 +967,12 @@ const main = async () => {
             longitude: "24",
             latitude: "53.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -964,6 +1006,12 @@ const main = async () => {
             longitude: "45.8",
             latitude: "52.7",
           },
+          itemsRequired: [
+            {
+              name: "Portable bunkhouse key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1015,6 +1063,12 @@ const main = async () => {
             longitude: "29.7",
             latitude: "41",
           },
+          itemsRequired: [
+            {
+              name: "Unknown key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1059,6 +1113,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Flash drives",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Secure Flash drive",
+              quantity: "2"
+            },
+          ],
         },
       ],
     },
@@ -1076,6 +1136,12 @@ const main = async () => {
             longitude: "78",
             latitude: "78",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 303 key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "plantQuestItem",
@@ -1087,6 +1153,12 @@ const main = async () => {
             longitude: "83.5",
             latitude: "12",
           },
+          itemsRequired: [
+            {
+              name: "Trailer park portable cabin key",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -1104,6 +1176,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injectors",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Morphine injector",
+              quantity: "4"
+            },
+          ],
         },
       ],
     },
@@ -1121,6 +1199,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the gas analyzers",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Gas analyzer",
+              quantity: "2"
+            },
+          ],
         },
       ],
     },
@@ -1160,6 +1244,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the magazines",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "AK-74 5.45x39 6L31 60-round magazine",
+              quantity: "3"
+            },
+          ],
         },
       ],
     },
@@ -1172,6 +1262,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over USD",
           finish: "6000",
+          itemsRequired: [
+            {
+              name: "Dollars",
+              quantity: "6000"
+            },
+          ],
         },
       ],
     },
@@ -1236,6 +1332,12 @@ const main = async () => {
             longitude: "62",
             latitude: "21",
           },
+          itemsRequired: [
+            {
+              name: "RSP-30 reactive signal cartridge (Green)",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -1254,6 +1356,12 @@ const main = async () => {
             longitude: "17.6",
             latitude: "24.2",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 220 key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1286,6 +1394,12 @@ const main = async () => {
             longitude: "67",
             latitude: "93.5",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 14 key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1353,6 +1467,12 @@ const main = async () => {
             longitude: "18.2",
             latitude: "39",
           },
+          itemsRequired: [
+            {
+              name: "WI-FI Camera",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -1371,6 +1491,12 @@ const main = async () => {
             longitude: "83",
             latitude: "89.3",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 220 key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1387,6 +1513,12 @@ const main = async () => {
             longitude: "83",
             latitude: "90.6",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 220 key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1410,6 +1542,12 @@ const main = async () => {
             longitude: "11",
             latitude: "45.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1421,6 +1559,12 @@ const main = async () => {
             longitude: "17.5",
             latitude: "48",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1432,6 +1576,12 @@ const main = async () => {
             longitude: "63.6",
             latitude: "50.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -1455,6 +1605,12 @@ const main = async () => {
             longitude: "5",
             latitude: "55",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1466,6 +1622,12 @@ const main = async () => {
             longitude: "43",
             latitude: "56.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1477,6 +1639,12 @@ const main = async () => {
             longitude: "33",
             latitude: "11.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -1533,6 +1701,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the cans",
           finish: "15",
+          itemsRequired: [
+            {
+              name: "Can of beef stew (Small)",
+              quantity: "15"
+            },
+          ],
         },
       ],
     },
@@ -1567,11 +1741,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the batteries",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Rechargeable battery",
+              quantity: "4"
+            },
+          ],
         },
         {
           type: "giveItem",
           description: "Hand over the spark plugs",
           finish: "8",
+          itemsRequired: [
+            {
+              name: "Spark plug",
+              quantity: "8"
+            },
+          ],
         },
       ],
     },
@@ -1590,6 +1776,12 @@ const main = async () => {
             longitude: "7.5",
             latitude: "69",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1601,6 +1793,12 @@ const main = async () => {
             longitude: "9",
             latitude: "68.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1612,6 +1810,12 @@ const main = async () => {
             longitude: "38.5",
             latitude: "30",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
       ],
     },
@@ -1630,6 +1834,12 @@ const main = async () => {
             longitude: "90.5",
             latitude: "7",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort west wing room 306 key",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "giveQuestItem",
@@ -1685,6 +1895,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over RUB",
           finish: "400000",
+          itemsRequired: [
+            {
+              name: "Roubles",
+              quantity: "400000"
+            },
+          ],
         },
       ],
     },
@@ -1720,6 +1936,12 @@ const main = async () => {
             longitude: "11.5",
             latitude: "44.5",
           },
+          itemsRequired: [
+            {
+              name: "Gunpowder Kite",
+              quantity: "3"
+            },
+          ],
         },
       ],
     },
@@ -1754,6 +1976,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over USD",
           finish: "500",
+          itemsRequired: [
+            {
+              name: "Dollars",
+              quantity: "500"
+            },
+          ],
         },
       ],
     },
@@ -1912,6 +2140,12 @@ const main = async () => {
             longitude: "19",
             latitude: "37",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -1927,8 +2161,14 @@ const main = async () => {
       objectives: [
         {
           type: "giveItem",
-          description: "Locate the transport with the chemicals on Customs",
+          description: "Hand over 1,000,000 RUB to Skier",
           finish: "1000000",
+          itemsRequired: [
+            {
+              name: "Roubles",
+              quantity: "1000000"
+            },
+          ],
         },
       ],
     },
@@ -1946,6 +2186,12 @@ const main = async () => {
             longitude: "37",
             latitude: "22.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "mark",
@@ -1956,6 +2202,12 @@ const main = async () => {
             longitude: "56",
             latitude: "84.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "findItem",
@@ -1966,6 +2218,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the ration packs",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "MRE ration pack",
+              quantity: "5"
+            },
+          ],
         },
         {
           type: "extract",
@@ -1999,6 +2257,12 @@ const main = async () => {
             longitude: "19",
             latitude: "37",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -2021,6 +2285,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the grenades",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "M67 hand grenade",
+              quantity: "10"
+            },
+          ],
         },
       ],
     },
@@ -2043,6 +2313,12 @@ const main = async () => {
             longitude: "19",
             latitude: "37",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -2112,6 +2388,12 @@ const main = async () => {
             longitude: "65",
             latitude: "25",
           },
+          itemsRequired: [
+            {
+              name: "Toolset",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "plantItem",
@@ -2122,6 +2404,12 @@ const main = async () => {
             longitude: "53.5",
             latitude: "21",
           },
+          itemsRequired: [
+            {
+              name: "Toolset",
+              quantity: "1"
+            },
+          ],
         },
         {
           type: "extract",
@@ -2285,6 +2573,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the cords",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Power cord",
+              quantity: "2"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2295,6 +2589,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the plugs",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "T-Shaped plug",
+              quantity: "4"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2305,6 +2605,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the PCBs",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Printed circuit board",
+              quantity: "2"
+            }
+          ]
         },
       ],
     },
@@ -2322,6 +2628,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the CPUs",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "PC CPU",
+              quantity: "3"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2332,6 +2644,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the batteries",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Rechargeable battery",
+              quantity: "3"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2342,6 +2660,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the PCBs",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Printed circuit board",
+              quantity: "3"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2352,6 +2676,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the phones",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Broken GPhone smartphone",
+              quantity: "3"
+            }
+          ]
         },
       ],
     },
@@ -2369,6 +2699,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Malboro cigarettes",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Malboro Cigarettes",
+              quantity: "5"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2379,6 +2715,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Strike cigarettes",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Strike Cigarettes",
+              quantity: "5"
+            }
+          ]
         },
         {
           type: "findItem",
@@ -2389,6 +2731,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Wilston cigarettes",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Wilston cigarettes",
+              quantity: "5"
+            },
+          ]
         },
       ],
     },
@@ -2411,6 +2759,16 @@ const main = async () => {
             longitude: "30",
             latitude: "53",
           },
+          itemsRequired: [
+            {
+              name: "Operating room key",
+              quantity: "1"
+            },
+            {
+              name: "Signal Jammer",
+              quantity: "1"
+            }
+          ]
         },
       ],
     },
@@ -2429,6 +2787,12 @@ const main = async () => {
             longitude: "32",
             latitude: "66",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -2440,6 +2804,16 @@ const main = async () => {
             longitude: "78",
             latitude: "95.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+            {
+              name: "Dorm room 314 marked key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -2451,6 +2825,12 @@ const main = async () => {
             longitude: "52",
             latitude: "15",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -2462,6 +2842,12 @@ const main = async () => {
             longitude: "94",
             latitude: "67",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -2479,6 +2865,12 @@ const main = async () => {
             longitude: "38",
             latitude: "34",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -2489,6 +2881,12 @@ const main = async () => {
             longitude: "39",
             latitude: "34",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -2511,6 +2909,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the WD-40",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "WD-40 (100ml)",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -2521,6 +2925,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the cleaners",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Clin window cleaner",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -2531,6 +2941,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the hoses",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Corrugated hose",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -2541,6 +2957,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the bleach",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Ox bleach",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -2554,12 +2976,32 @@ const main = async () => {
           description:
             "Locate the generators in the east wing of the Health Resort",
           finish: "1",
+          location: {
+            map: "Shoreline",
+            longitude: "92",
+            latitude: "84",
+          },
         },
         {
           type: "visit",
           description:
             "Locate the generators in the west wing of the Health Resort",
           finish: "1",
+          location: {
+            map: "Shoreline",
+            longitude: "82",
+            latitude: "25.5",
+          },
+          itemsRequired: [
+            {
+              name: "Health Resort west wing room 219 key",
+              quantity: "1"
+            },
+            {
+              name: "Health Resort west wing room 220 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -2600,6 +3042,12 @@ const main = async () => {
           type: "giveItem",
           description: "and over USD",
           finish: "8000",
+          itemsRequired: [
+            {
+              name: "Dollars",
+              quantity: "8000"
+            },
+          ]
         },
       ],
     },
@@ -2617,6 +3065,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injectors",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Morphine injector",
+              quantity: "4"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -2627,6 +3081,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the cleaners",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Alkaline cleaner for heat exchangers",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -2637,6 +3097,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the hoses",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Corrugated hose",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -2647,6 +3113,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the tanks",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Propane tank (5L)",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -2665,6 +3137,16 @@ const main = async () => {
             longitude: "83",
             latitude: "67",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort east wing room 306 key",
+              quantity: "1"
+            },
+            {
+              name: "Health Resort east wing room 308 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -2793,6 +3275,12 @@ const main = async () => {
             longitude: "65",
             latitude: "63",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -2855,6 +3343,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the BOSS cap",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "BOSS cap",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -2970,6 +3464,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over Shturman's stash key",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Shturman's stash key",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -3004,6 +3504,12 @@ const main = async () => {
             longitude: "89.5",
             latitude: "66.7",
           },
+          itemsRequired: [
+            {
+              name: "Tarcone Director's office key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -3061,6 +3567,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the GPUs",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Graphics card",
+              quantity: "3"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -3071,6 +3583,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the CPU Fans",
           finish: "8",
+          itemsRequired: [
+            {
+              name: "PC CPU",
+              quantity: "8"
+            },
+          ]
         },
       ],
     },
@@ -3131,6 +3649,12 @@ const main = async () => {
             longitude: "27",
             latitude: "66",
           },
+          itemsRequired: [
+            {
+              name: "RB-ST key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -3158,6 +3682,12 @@ const main = async () => {
             longitude: "12",
             latitude: "80.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -3219,6 +3749,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over EUR",
           finish: "50000",
+          itemsRequired: [
+            {
+              name: "Euros",
+              quantity: "50000"
+            },
+          ]
         },
       ],
     },
@@ -3236,6 +3772,16 @@ const main = async () => {
             longitude: "98",
             latitude: "72",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort east wing room 328 key",
+              quantity: "1"
+            },
+            {
+              name: "Health Resort universal utility room key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -3294,6 +3840,12 @@ const main = async () => {
             longitude: "36",
             latitude: "51.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3305,6 +3857,12 @@ const main = async () => {
             longitude: "26",
             latitude: "44",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3316,6 +3874,12 @@ const main = async () => {
             longitude: "63.5",
             latitude: "46.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3327,6 +3891,12 @@ const main = async () => {
             longitude: "90",
             latitude: "56.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -3349,6 +3919,12 @@ const main = async () => {
             longitude: "34",
             latitude: "75",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -3364,6 +3940,12 @@ const main = async () => {
             longitude: "27",
             latitude: "66",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -3379,6 +3961,12 @@ const main = async () => {
             longitude: "27",
             latitude: "48",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -3394,6 +3982,12 @@ const main = async () => {
             longitude: "26.5",
             latitude: "18",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -3409,6 +4003,12 @@ const main = async () => {
             longitude: "42.5",
             latitude: "18",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -3446,6 +4046,12 @@ const main = async () => {
             longitude: "86",
             latitude: "78",
           },
+          itemsRequired: [
+            {
+              name: "Dorm room 203 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -3473,6 +4079,12 @@ const main = async () => {
             longitude: "74.3",
             latitude: "86.5",
           },
+          itemsRequired: [
+            {
+              name: "RB-KSM key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findQuestItem",
@@ -3483,6 +4095,12 @@ const main = async () => {
             longitude: "76.3",
             latitude: "86",
           },
+          itemsRequired: [
+            {
+              name: "RB-SMP key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -3552,6 +4170,12 @@ const main = async () => {
             longitude: "37",
             latitude: "30",
           },
+          itemsRequired: [
+            {
+              name: "Signal Jammer",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3563,6 +4187,12 @@ const main = async () => {
             longitude: "50",
             latitude: "63",
           },
+          itemsRequired: [
+            {
+              name: "Signal Jammer",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3574,6 +4204,12 @@ const main = async () => {
             longitude: "62",
             latitude: "48",
           },
+          itemsRequired: [
+            {
+              name: "Signal Jammer",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -3728,6 +4364,12 @@ const main = async () => {
             longitude: "60.5",
             latitude: "74.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3739,6 +4381,12 @@ const main = async () => {
             longitude: "33.5",
             latitude: "70",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3750,6 +4398,12 @@ const main = async () => {
             longitude: "47",
             latitude: "18",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -3909,11 +4563,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the ushanka-hats",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Ushanka ear flap hat",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the hats",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Cowboy hat",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -3931,6 +4597,12 @@ const main = async () => {
             longitude: "54.5",
             latitude: "68.5",
           },
+          itemsRequired: [
+            {
+              name: "OLI logistics department office key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -3955,6 +4627,12 @@ const main = async () => {
             longitude: "16",
             latitude: "41",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -3966,6 +4644,12 @@ const main = async () => {
             longitude: "39.5",
             latitude: "65",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4000,6 +4684,12 @@ const main = async () => {
             longitude: "90",
             latitude: "64",
           },
+          itemsRequired: [
+            {
+              name: "RB-OB key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -4011,6 +4701,12 @@ const main = async () => {
             longitude: "88",
             latitude: "63.5",
           },
+          itemsRequired: [
+            {
+              name: "RB-ORB3 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -4022,6 +4718,12 @@ const main = async () => {
             longitude: "96.5",
             latitude: "80",
           },
+          itemsRequired: [
+            {
+              name: "RB-ORB1 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "visit",
@@ -4033,6 +4735,12 @@ const main = async () => {
             longitude: "96.5",
             latitude: "88",
           },
+          itemsRequired: [
+            {
+              name: "RB-ORB2 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4100,31 +4808,33 @@ const main = async () => {
       objectives: [
         {
           type: "plantItem",
-          description: "Stash Ghost balaclava in the specified place",
-          finish: "1",
-        },
-        {
-          type: "plantItem",
-          description: "Stash Shemagh (Green) in the specified place",
-          finish: "1",
-        },
-        {
-          type: "plantItem",
-          description:
-            "Stash RayBench Hipster Reserve sunglasses in the specified place",
-          finish: "1",
-        },
-        {
-          type: "plantItem",
-          description: "Stash Round frame sunglasses in the specified place",
-          finish: "1",
+          description: "Stash Ghost balaclava, Shemang (Green), RayBench Hipster Reserve sunglasses and Round frame sunglasses in the specified place",
+          finish: "4",
+          location: {
+            map: "Woods",
+            longitude: "44.5",
+            latitude: "72.5",
+          },
+          itemsRequired: [
+            {
+              name: "Ghost balaclava",
+              quantity: "1"
+            },
+            {
+              name: "Shemagh (Green)",
+              quantity: "1"
+            },
+            {
+              name: "RayBench Hipster Reserve sunglasses",
+              quantity: "1"
+            },
+            {
+              name: "Round frame sunglasses",
+              quantity: "1"
+            },
+          ]
         },
       ],
-      location: {
-        map: "Woods",
-        longitude: "44.5",
-        latitude: "72.5",
-      },
     },
     {
       name: "The Blood of War - Part 1",
@@ -4141,6 +4851,12 @@ const main = async () => {
             longitude: "70",
             latitude: "18.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -4152,6 +4868,12 @@ const main = async () => {
             longitude: "71.5",
             latitude: "43.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -4163,6 +4885,12 @@ const main = async () => {
             longitude: "43.5",
             latitude: "53.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4191,6 +4919,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the half-masks",
           finish: "7",
+          itemsRequired: [
+            {
+              name: "Lower half-mask",
+              quantity: "7"
+            },
+          ]
         },
       ],
     },
@@ -4259,6 +4993,12 @@ const main = async () => {
             longitude: "33.5",
             latitude: "41.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4392,6 +5132,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Flash drives",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Secure Flash drive",
+              quantity: "3"
+            },
+          ]
         },
       ],
     },
@@ -4507,6 +5253,12 @@ const main = async () => {
             longitude: "79",
             latitude: "29",
           },
+          itemsRequired: [
+            {
+              name: "Hotel room 215 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -4553,6 +5305,12 @@ const main = async () => {
             longitude: "16",
             latitude: "35",
           },
+          itemsRequired: [
+            {
+              name: "Primorsky 46-48 skybridge key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4599,6 +5357,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the knives",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Bars A-2607 95Kh18 knife",
+              quantity: "5"
+            },
+          ]
         },
       ],
     },
@@ -4645,6 +5409,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the AK-74N",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Kalashnikov AK-74N 5.45x39 assault rifle",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -4655,6 +5425,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the M4A1",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Colt M4A1 5.56x45 assault rifle Standard",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -4665,6 +5441,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the pistols",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Makarov PM 9x18PM pistol",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "shoot",
@@ -4816,6 +5598,12 @@ const main = async () => {
             longitude: "38.5",
             latitude: "30",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -4827,6 +5615,12 @@ const main = async () => {
             longitude: "41",
             latitude: "87",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -4838,6 +5632,12 @@ const main = async () => {
             longitude: "20",
             latitude: "48",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4894,6 +5694,12 @@ const main = async () => {
             longitude: "38.5",
             latitude: "30",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "plantItem",
@@ -4905,6 +5711,12 @@ const main = async () => {
             longitude: "20",
             latitude: "48",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "plantItem",
@@ -4916,6 +5728,12 @@ const main = async () => {
             longitude: "41",
             latitude: "87",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -4953,6 +5771,12 @@ const main = async () => {
             longitude: "20",
             latitude: "49.5",
           },
+          itemsRequired: [
+            {
+              name: "Cottage back door key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -4975,6 +5799,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "M.U.L.E. stimulant injector",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -4985,6 +5815,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Obdolbos cocktail injector",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -4995,6 +5831,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Meldonin injector",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5005,6 +5847,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "AHF1-M stimulant injector",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5015,6 +5863,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "P22 (Product 22) stimulant injector",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5025,6 +5879,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "L1 (Norepinephrine) injector",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5035,6 +5895,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the injector",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "3-(b-TG) stimulant injector",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5052,6 +5918,12 @@ const main = async () => {
             longitude: "87.5",
             latitude: "30",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort west wing office room 112 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5067,6 +5939,12 @@ const main = async () => {
             longitude: "58.5",
             latitude: "44.5",
           },
+          itemsRequired: [
+            {
+              name: "EMERCOM medical unit key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5130,6 +6008,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the respirators",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Respirator",
+              quantity: "4"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5145,6 +6029,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the bloodsets",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Medical bloodset",
+              quantity: "3"
+            },
+          ]
         },
       ],
     },
@@ -5204,6 +6094,12 @@ const main = async () => {
             longitude: "87",
             latitude: "95",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort office key with a blue tape",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -5249,6 +6145,12 @@ const main = async () => {
             longitude: "54",
             latitude: "28",
           },
+          itemsRequired: [
+            {
+              name: "RSP-30 reactive signal cartridge (Yellow)",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5284,6 +6186,12 @@ const main = async () => {
             longitude: "81",
             latitude: "47",
           },
+          itemsRequired: [
+            {
+              name: "Keycard with a blue marking",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5307,6 +6215,12 @@ const main = async () => {
             longitude: "44",
             latitude: "71",
           },
+          itemsRequired: [
+            {
+              name: "WI-FI Camera",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "plantItem",
@@ -5318,6 +6232,12 @@ const main = async () => {
             longitude: "63",
             latitude: "66",
           },
+          itemsRequired: [
+            {
+              name: "WI-FI Camera",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "plantItem",
@@ -5329,6 +6249,12 @@ const main = async () => {
             longitude: "46",
             latitude: "50",
           },
+          itemsRequired: [
+            {
+              name: "WI-FI Camera",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5347,6 +6273,12 @@ const main = async () => {
             longitude: "53.5",
             latitude: "86",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -5358,6 +6290,12 @@ const main = async () => {
             longitude: "17",
             latitude: "61.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -5369,6 +6307,12 @@ const main = async () => {
             longitude: "13",
             latitude: "54",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -5458,6 +6402,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the military battery",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "6-STEN-140-M military battery",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5468,6 +6418,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the OFZ shells",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "OFZ 30x160mm shell",
+              quantity: "5"
+            },
+          ]
         },
       ],
     },
@@ -5515,6 +6471,16 @@ const main = async () => {
             longitude: "83.5",
             latitude: "69",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort east wing room 306 key",
+              quantity: "1"
+            },
+            {
+              name: "Health Resort east wing room 308 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5547,6 +6513,12 @@ const main = async () => {
             longitude: "84",
             latitude: "24",
           },
+          itemsRequired: [
+            {
+              name: "Health Resort west wing room 216 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5570,6 +6542,12 @@ const main = async () => {
             longitude: "14",
             latitude: "40",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -5581,6 +6559,12 @@ const main = async () => {
             longitude: "16.5",
             latitude: "44",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -5592,6 +6576,12 @@ const main = async () => {
             longitude: "30.5",
             latitude: "36",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -5603,6 +6593,12 @@ const main = async () => {
             longitude: "40.3",
             latitude: "53",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5620,6 +6616,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the ski hat",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Ski hat with holes for eyes",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5630,6 +6632,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the backpack",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Pilgrim tourist backpack",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5642,6 +6650,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the defibrillator",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Portable defibrillator",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5657,6 +6671,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the CMS kits",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "CMS surgical kit",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -5687,6 +6707,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the armor",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "BNTI Gzhel-K body armor",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5697,6 +6723,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the armor",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "BNTI Gzhel-K body armor",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5715,6 +6747,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the armor",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "6B43 6A Zabralo-Sh body armor",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5726,6 +6764,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the armor",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "6B43 6A Zabralo-Sh body armor",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -5743,6 +6787,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the chest rigs",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "WARTECH TV-109 + TV-106 chest rig",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -5753,6 +6803,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the chest rigs",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "BlackRock chest rig",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -5782,6 +6838,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Fuel conditioners",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Fuel conditioner",
+              quantity: "4"
+            },
+          ]
         },
       ],
     },
@@ -5813,6 +6875,12 @@ const main = async () => {
             longitude: "21.5",
             latitude: "83",
           },
+          itemsRequired: [
+            {
+              name: "Concordia security room key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5854,6 +6922,12 @@ const main = async () => {
             longitude: "16",
             latitude: "35",
           },
+          itemsRequired: [
+            {
+              name: "Primorsky 46-48 skybridge key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -5927,6 +7001,12 @@ const main = async () => {
             longitude: "91",
             latitude: "63",
           },
+          itemsRequired: [
+            {
+              name: "Abandoned factory marked key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -5995,6 +7075,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Bronze lions",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Bronze lion figurine",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -6005,6 +7091,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Horse figurines",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Horse figurine",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -6015,6 +7107,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Cat figurine",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Cat figurine",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -6025,6 +7123,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the wrist watch",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Roler Submariner gold wrist watch",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -6035,6 +7139,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Golden egg",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Golden egg",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6066,6 +7176,12 @@ const main = async () => {
             longitude: "68.5",
             latitude: "37.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -6077,6 +7193,12 @@ const main = async () => {
             longitude: "61.5",
             latitude: "39",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -6093,6 +7215,12 @@ const main = async () => {
             longitude: "38",
             latitude: "63",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -6143,6 +7271,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the access keycards",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "TerraGroup Labs access keycard",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -6160,6 +7294,16 @@ const main = async () => {
             longitude: "62.5",
             latitude: "58.5",
           },
+          itemsRequired: [
+            {
+              name: "Peltor ComTac 2 headset",
+              quantity: "2"
+            },
+            {
+              name: "6B47 Ratnik-BSh helmet",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "plantItem",
@@ -6170,6 +7314,12 @@ const main = async () => {
             longitude: "49",
             latitude: "51.5",
           },
+          itemsRequired: [
+            {
+              name: "BNTI Gzhel-K body armor",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -6242,11 +7392,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the wires",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Bundle of wires",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the capacitors",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Capacitors",
+              quantity: "5"
+            },
+          ]
         },
       ],
     },
@@ -6302,6 +7464,12 @@ const main = async () => {
             longitude: "22",
             latitude: "59.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -6313,6 +7481,12 @@ const main = async () => {
             longitude: "68.5",
             latitude: "67.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -6324,6 +7498,12 @@ const main = async () => {
             longitude: "60",
             latitude: "51",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -6352,11 +7532,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the processors",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Virtex programmable processor",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the transmitter",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Military COFDM Wireless Signal Transmitter",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6417,6 +7609,16 @@ const main = async () => {
             longitude: "78",
             latitude: "84",
           },
+          itemsRequired: [
+            {
+              name: "SV-98 7.62x54R bolt-action sniper rifle",
+              quantity: "1"
+            },
+            {
+              name: "Roler Submariner gold wrist watch",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6502,6 +7704,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over Killa's helmet",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Maska-1SCh bulletproof helmet (Killa)",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6546,21 +7754,45 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the teapots",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Antique teapot",
+              quantity: "3"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the vases",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Antique vase",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the Axel parrot figurine",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Axel parrot figurine",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the Raven figurines",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Raven figurine",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -6615,6 +7847,12 @@ const main = async () => {
             longitude: "80",
             latitude: "27",
           },
+          itemsRequired: [
+            {
+              name: "Hotel room 206 key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -6675,6 +7913,12 @@ const main = async () => {
             longitude: "4.6",
             latitude: "40.5",
           },
+          itemsRequired: [
+            {
+              name: "Iron gate key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -6703,6 +7947,12 @@ const main = async () => {
             longitude: "6.5",
             latitude: "32.5",
           },
+          itemsRequired: [
+            {
+              name: "Chekannaya 15 apartment key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "extract",
@@ -6730,11 +7980,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the Ophthalmoscope",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Ophthalmoscope",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the LEDX Skin Transilluminator",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "LEDX Skin Transilluminator",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6753,6 +8015,16 @@ const main = async () => {
             longitude: "41",
             latitude: "88",
           },
+          itemsRequired: [
+            {
+              name: "Car dealership closed section key",
+              quantity: "1"
+            },
+            {
+              name: "Car dealership director's office room key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -6780,11 +8052,23 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the reader",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "UHF RFID Reader",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the storage module",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "VPX Flash Storage Module",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6906,6 +8190,12 @@ const main = async () => {
             longitude: "31",
             latitude: "71",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -6917,6 +8207,12 @@ const main = async () => {
             longitude: "53.5",
             latitude: "63",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -6951,6 +8247,12 @@ const main = async () => {
             longitude: "27",
             latitude: "65",
           },
+          itemsRequired: [
+            {
+              name: "RB-ST key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "plantQuestItem",
@@ -6962,6 +8264,12 @@ const main = async () => {
             longitude: "27",
             latitude: "66",
           },
+          itemsRequired: [
+            {
+              name: "RB-ST key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -6985,6 +8293,12 @@ const main = async () => {
             longitude: "33.5",
             latitude: "41.5",
           },
+          itemsRequired: [
+            {
+              name: "Radio repeater",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -6996,6 +8310,12 @@ const main = async () => {
             longitude: "68",
             latitude: "39",
           },
+          itemsRequired: [
+            {
+              name: "Radio repeater",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -7007,6 +8327,12 @@ const main = async () => {
             longitude: "83.5",
             latitude: "57",
           },
+          itemsRequired: [
+            {
+              name: "Radio repeater",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -7018,6 +8344,12 @@ const main = async () => {
             longitude: "78",
             latitude: "62",
           },
+          itemsRequired: [
+            {
+              name: "Radio repeater",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -7048,6 +8380,12 @@ const main = async () => {
             longitude: "16",
             latitude: "70",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -7059,6 +8397,12 @@ const main = async () => {
             longitude: "58",
             latitude: "49.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -7070,6 +8414,12 @@ const main = async () => {
             longitude: "56.5",
             latitude: "46.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "mark",
@@ -7081,6 +8431,12 @@ const main = async () => {
             longitude: "30.5",
             latitude: "16.5",
           },
+          itemsRequired: [
+            {
+              name: "MS2000 Marker",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -7099,18 +8455,36 @@ const main = async () => {
           description:
             "Hand over the found in raid SJ1 TGLabs combat stimulant injector",
           finish: "20",
+          itemsRequired: [
+            {
+              name: "SJ1 TGLabs combat stimulant injector",
+              quantity: "20"
+            },
+          ]
         },
         {
           type: "giveItem",
           description:
             "Hand over the found in raid SJ6 TGLabs combat stimulant injector",
           finish: "8",
+          itemsRequired: [
+            {
+              name: "SJ6 TGLabs combat stimulant injector",
+              quantity: "8"
+            },
+          ]
         },
         {
           type: "giveItem",
           description:
             "Hand over the found in raid SJ9 TGLabs combat stimulant injector",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "SJ9 TGLabs combat stimulant injector",
+              quantity: "2"
+            },
+          ]
         },
       ],
     },
@@ -7123,27 +8497,57 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the found in raid Piece of plexiglass",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Piece of plexiglass",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the found in raid Insulating tape",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Insulating tape",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the found in raid Military circuit board",
           finish: "2",
+          itemsRequired: [
+            {
+              name: "Military circuit board",
+              quantity: "2"
+            },
+          ]
         },
         {
           type: "giveItem",
           description:
             "Hand over the found in raid Military COFDM Wireless Signal Transmitter",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Military COFDM Wireless Signal Transmitter",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the found in raid Working LCD",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Working LCD",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "findQuestItem",
@@ -7471,6 +8875,12 @@ const main = async () => {
             longitude: "91.5",
             latitude: "82",
           },
+          itemsRequired: [
+            {
+              name: "Radar station commandant room key",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "giveQuestItem",
@@ -7659,6 +9069,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the key",
           finish: "1",
+          itemsRequired: [
+            {
+              name: "Goshan cash register key",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -7713,6 +9129,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the fabrics",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Aramid fiber fabric",
+              quantity: "10"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -7723,6 +9145,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the fabrics",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "Ripstop fabric",
+              quantity: "10"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -7733,6 +9161,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the paracords",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Paracord",
+              quantity: "3"
+            },
+          ]
         },
       ],
     },
@@ -7750,6 +9184,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the fabrics",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "Fleece fabric",
+              quantity: "10"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -7760,6 +9200,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the fabrics",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "Cordura polyamide fabric",
+              quantity: "10"
+            },
+          ]
         },
         {
           type: "findItem",
@@ -7770,6 +9216,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the duct tapes",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "KEKTAPE duct tape",
+              quantity: "5"
+            },
+          ]
         },
       ],
     },
@@ -7861,26 +9313,56 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the defibrillators",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Portable defibrillator",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the ophthalmoscopes",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Ophthalmoscope",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the LEDX",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "LEDX Skin Transilluminator",
+              quantity: "3"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the Piles of meds",
           finish: "20",
+          itemsRequired: [
+            {
+              name: "Pile of meds",
+              quantity: "20"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the multivitamins",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "Bottle of OLOLO Multivitamins",
+              quantity: "10"
+            },
+          ]
         },
       ],
     },
@@ -7898,6 +9380,12 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the knives",
           finish: "12",
+          itemsRequired: [
+            {
+              name: "Cultist knife",
+              quantity: "12"
+            },
+          ]
         },
       ],
     },
@@ -7943,21 +9431,45 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the vodka",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "Bottle of Tarkovskaya vodka",
+              quantity: "10"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the whiskey",
           finish: "10",
+          itemsRequired: [
+            {
+              name: "Bottle of Dan Jackiel whiskey",
+              quantity: "10"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the superwater",
           finish: "3",
+          itemsRequired: [
+            {
+              name: "Canister with purified water",
+              quantity: "3"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the beer",
           finish: "20",
+          itemsRequired: [
+            {
+              name: "Bottle of Pevko Light beer",
+              quantity: "20"
+            },
+          ]
         },
       ],
     },
@@ -7976,6 +9488,12 @@ const main = async () => {
             longitude: "49",
             latitude: "29",
           },
+          itemsRequired: [
+            {
+              name: "Trijicon REAP-IR thermal scope",
+              quantity: "1"
+            },
+          ]
         },
         {
           type: "plantItem",
@@ -7987,6 +9505,12 @@ const main = async () => {
             longitude: "24.3",
             latitude: "55.5",
           },
+          itemsRequired: [
+            {
+              name: "Trijicon REAP-IR thermal scope",
+              quantity: "1"
+            },
+          ]
         },
       ],
     },
@@ -8044,26 +9568,56 @@ const main = async () => {
           type: "giveItem",
           description: "Hand over the flash storage modules",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "VPX Flash Storage Module",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the RFID readers",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "UHF RFID Reader",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the programmable processors",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Virtex programmable processor",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the signal transmitters",
           finish: "5",
+          itemsRequired: [
+            {
+              name: "Military COFDM Wireless Signal Transmitter",
+              quantity: "5"
+            },
+          ]
         },
         {
           type: "giveItem",
           description: "Hand over the flash drives",
           finish: "4",
+          itemsRequired: [
+            {
+              name: "Military flash drive",
+              quantity: "4"
+            },
+          ]
         },
       ],
     },

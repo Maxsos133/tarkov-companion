@@ -1,4 +1,4 @@
-const BASE_URL =  `http://localhost:3001/`// `https://tarkov-help.vercel.app/`
+const BASE_URL =  `https://tarkov-help.vercel.app/`//   `http://localhost:3001/`
 let isLoggedIn = false
 let user = null
 const loginDiv = document.querySelector(`#loginCheck`)
