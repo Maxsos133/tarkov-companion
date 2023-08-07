@@ -113,6 +113,45 @@ app.delete('/users/:userId/quests/:questId', async (req, res) => {
   }
 })
 
+app.patch('/users/:userId/items/:itemName', async (req, res) => {
+  try {
+    const { userId, itemName } = req.params;
+    const { found } = req.body;
+    console.log(found)
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: 'User not found.' });
+    }
+
+    const itemIndex = user.items.findIndex((item) => item.name === itemName);
+    console.log(itemIndex)
+    if (itemIndex === -1) {
+      // If the item is not found, push it as a new item to the user's items array
+      user.items.push({
+        name: itemName,
+        found: found
+      });
+      const updatedUser = await user.save();
+      return res.status(200).json(updatedUser);
+    }
+
+    // Update the found quantity of the item
+    user.items[itemIndex].found = found;
+user.markModified('items');
+const updatedUser = await user.save();
+
+    console.log('Updated User:', updatedUser);
+
+    return res.json(updatedUser);
+  } catch (error) {
+    console.error('Error updating item found quantity:', error);
+    return res.status(500).json({ error: 'Failed to update item found quantity.' });
+  }
+});
+
+
+
 
 
 

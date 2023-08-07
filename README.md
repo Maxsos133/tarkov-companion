@@ -23,7 +23,8 @@ Link to the website - [Tarkov Companion](https://tarkov-companion.vercel.app/)
 
 ## Next Steps:
 
-- More quests added.
+- More quests added. (All added)
 - More information about each quest such as rewards.
-- Add an interactable map with clickable pins of your selected quests selected, which show information on how to complete the quest.
+- Add an interactable map with clickable pins of your selected quests selected, which show information on how to complete the quest. (Done)
 - Boss section.
+- Items required section. (Done)

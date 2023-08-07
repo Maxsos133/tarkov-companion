@@ -22,8 +22,9 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MP-133 12ga pump-action shotgun",
-              quantity: "2"
-            }
+              found: "0",
+              quantity: "2",
+            },
           ],
         },
       ],
@@ -45,8 +46,9 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Salewa first aid kit",
-              quantity: "3"
-            }
+              found: "0",
+              quantity: "3",
+            },
           ],
         },
       ],
@@ -64,13 +66,13 @@ const main = async () => {
             map: "Customs",
             longitude: "55.5",
             latitude: "49",
-            
           },
           itemsRequired: [
             {
               name: "Machinery key",
-              quantity: "1"
-            }
+              found: "0",
+              quantity: "1",
+            },
           ],
         },
         {
@@ -132,8 +134,9 @@ const main = async () => {
           itemsRequired: [
             {
               name: "BNTI Module-3M body armor",
-              quantity: "1"
-            }
+              found: "0",
+              quantity: "1",
+            },
           ],
         },
         {
@@ -143,8 +146,9 @@ const main = async () => {
           itemsRequired: [
             {
               name: "TOZ-106 20ga bolt-action shotgun",
-              quantity: "1"
-            }
+              found: "0",
+              quantity: "1",
+            },
           ],
         },
       ],
@@ -167,8 +171,9 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 206 key",
-              quantity: "1"
-            }
+              found: "0",
+              quantity: "1",
+            },
           ],
         },
         {
@@ -191,7 +196,8 @@ const main = async () => {
         },
         {
           type: "plantItem",
-          description: "Stash the SV-98 sniper rifle and the multitool in the boat",
+          description:
+            "Stash the SV-98 sniper rifle and the multitool in the boat",
           finish: "1",
           location: {
             map: "Shoreline",
@@ -201,11 +207,13 @@ const main = async () => {
           itemsRequired: [
             {
               name: "SV-98 7.62x54R bolt-action sniper rifle",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Leatherman Multitool",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -257,7 +265,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Electronic components",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
           ],
         },
@@ -269,7 +278,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Military COFDM Wireless Signal Transmitter",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
           ],
         },
@@ -280,7 +290,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Gas analyzer",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
           ],
         },
@@ -291,7 +302,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Broken GPhone smartphone",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
           ],
         },
@@ -309,7 +321,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Secure container Epsilon",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -340,7 +353,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Iskra ration pack",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
           ],
         },
@@ -351,7 +365,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Emelya rye croutons",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
           ],
         },
@@ -362,7 +377,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Can of beef stew (Large)",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
           ],
         },
@@ -386,11 +402,13 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Iskra ration pack",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Bottle of water (0.6L)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -407,11 +425,13 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Iskra ration pack",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Bottle of water (0.6L)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -533,7 +553,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "TT-33 7.62x25 TT pistol (Golden)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -821,7 +842,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Tarcone Director's office key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -895,7 +917,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Salty Dog beef sausage",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -919,7 +942,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -936,7 +960,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -953,7 +978,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -970,7 +996,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1009,7 +1036,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Portable bunkhouse key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1066,7 +1094,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Unknown key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1116,7 +1145,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Secure Flash drive",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
           ],
         },
@@ -1139,7 +1169,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 303 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1156,7 +1187,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Trailer park portable cabin key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1179,7 +1211,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Morphine injector",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
           ],
         },
@@ -1202,7 +1235,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Gas analyzer",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
           ],
         },
@@ -1247,7 +1281,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "AK-74 5.45x39 6L31 60-round magazine",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
           ],
         },
@@ -1265,7 +1300,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dollars",
-              quantity: "6000"
+              found: "0",
+              quantity: "6000",
             },
           ],
         },
@@ -1335,7 +1371,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RSP-30 reactive signal cartridge (Green)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1359,7 +1396,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 220 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1397,7 +1435,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 14 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1470,7 +1509,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "WI-FI Camera",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1494,7 +1534,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 220 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1516,7 +1557,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 220 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1545,7 +1587,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1562,7 +1605,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1579,7 +1623,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1608,7 +1653,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1625,7 +1671,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1642,7 +1689,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1704,7 +1752,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Can of beef stew (Small)",
-              quantity: "15"
+              found: "0",
+              quantity: "15",
             },
           ],
         },
@@ -1744,7 +1793,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Rechargeable battery",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
           ],
         },
@@ -1755,7 +1805,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Spark plug",
-              quantity: "8"
+              found: "0",
+              quantity: "8",
             },
           ],
         },
@@ -1779,7 +1830,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1796,7 +1848,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1813,7 +1866,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1837,7 +1891,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort west wing room 306 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -1898,7 +1953,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Roubles",
-              quantity: "400000"
+              found: "0",
+              quantity: "400000",
             },
           ],
         },
@@ -1939,7 +1995,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Gunpowder Kite",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
           ],
         },
@@ -1979,7 +2036,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dollars",
-              quantity: "500"
+              found: "0",
+              quantity: "500",
             },
           ],
         },
@@ -2143,7 +2201,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2166,7 +2225,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Roubles",
-              quantity: "1000000"
+              found: "0",
+              quantity: "1000000",
             },
           ],
         },
@@ -2189,7 +2249,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2205,7 +2266,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2221,7 +2283,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MRE ration pack",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
           ],
         },
@@ -2260,7 +2323,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2288,7 +2352,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "M67 hand grenade",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
           ],
         },
@@ -2316,7 +2381,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2391,7 +2457,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Toolset",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2407,7 +2474,8 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Toolset",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
           ],
         },
@@ -2506,9 +2574,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Factory emergency exit key",
-              quantity: "1"
-            }
-          ]
+              found: "0",
+              quantity: "1",
+            },
+          ],
         },
         {
           type: "visit",
@@ -2522,9 +2591,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Factory emergency exit key",
-              quantity: "1"
-            }
-          ]
+              found: "0",
+              quantity: "1",
+            },
+          ],
         },
         {
           type: "visit",
@@ -2538,9 +2608,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Factory emergency exit key",
-              quantity: "1"
-            }
-          ]
+              found: "0",
+              quantity: "1",
+            },
+          ],
         },
         {
           type: "visit",
@@ -2576,9 +2647,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Power cord",
-              quantity: "2"
-            }
-          ]
+              found: "0",
+              quantity: "2",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2592,9 +2664,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "T-Shaped plug",
-              quantity: "4"
-            }
-          ]
+              found: "0",
+              quantity: "4",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2608,9 +2681,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Printed circuit board",
-              quantity: "2"
-            }
-          ]
+              found: "0",
+              quantity: "2",
+            },
+          ],
         },
       ],
     },
@@ -2631,9 +2705,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "PC CPU",
-              quantity: "3"
-            }
-          ]
+              found: "0",
+              quantity: "3",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2647,9 +2722,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Rechargeable battery",
-              quantity: "3"
-            }
-          ]
+              found: "0",
+              quantity: "3",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2663,9 +2739,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Printed circuit board",
-              quantity: "3"
-            }
-          ]
+              found: "0",
+              quantity: "3",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2679,9 +2756,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Broken GPhone smartphone",
-              quantity: "3"
-            }
-          ]
+              found: "0",
+              quantity: "3",
+            },
+          ],
         },
       ],
     },
@@ -2702,9 +2780,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Malboro Cigarettes",
-              quantity: "5"
-            }
-          ]
+              found: "0",
+              quantity: "5",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2718,9 +2797,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Strike Cigarettes",
-              quantity: "5"
-            }
-          ]
+              found: "0",
+              quantity: "5",
+            },
+          ],
         },
         {
           type: "findItem",
@@ -2734,9 +2814,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Wilston cigarettes",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
       ],
     },
@@ -2762,13 +2843,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Operating room key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Signal Jammer",
-              quantity: "1"
-            }
-          ]
+              found: "0",
+              quantity: "1",
+            },
+          ],
         },
       ],
     },
@@ -2790,9 +2873,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -2807,13 +2891,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Dorm room 314 marked key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -2828,9 +2914,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -2845,9 +2932,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -2868,9 +2956,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -2884,9 +2973,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -2912,9 +3002,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "WD-40 (100ml)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -2928,9 +3019,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Clin window cleaner",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -2944,9 +3036,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Corrugated hose",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -2960,9 +3053,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ox bleach",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -2995,13 +3089,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort west wing room 219 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Health Resort west wing room 220 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -3045,9 +3141,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dollars",
-              quantity: "8000"
+              found: "0",
+              quantity: "8000",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3068,9 +3165,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Morphine injector",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -3084,9 +3182,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Alkaline cleaner for heat exchangers",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -3100,9 +3199,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Corrugated hose",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -3116,9 +3216,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Propane tank (5L)",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3140,13 +3241,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort east wing room 306 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Health Resort east wing room 308 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -3278,9 +3381,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -3346,9 +3450,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "BOSS cap",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3467,9 +3572,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Shturman's stash key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3507,9 +3613,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Tarcone Director's office key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -3570,9 +3677,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Graphics card",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -3586,9 +3694,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "PC CPU",
-              quantity: "8"
+              found: "0",
+              quantity: "8",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3652,9 +3761,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-ST key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -3685,9 +3795,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -3752,9 +3863,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Euros",
-              quantity: "50000"
+              found: "0",
+              quantity: "50000",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3775,13 +3887,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort east wing room 328 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Health Resort universal utility room key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -3843,9 +3957,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -3860,9 +3975,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -3877,9 +3993,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -3894,9 +4011,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -3922,9 +4040,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -3943,9 +4062,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -3964,9 +4084,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -3985,9 +4106,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -4006,9 +4128,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -4049,9 +4172,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Dorm room 203 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -4082,9 +4206,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-KSM key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findQuestItem",
@@ -4098,9 +4223,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-SMP key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -4173,9 +4299,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Signal Jammer",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4190,9 +4317,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Signal Jammer",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4207,9 +4335,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Signal Jammer",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -4367,9 +4496,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4384,9 +4514,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4401,9 +4532,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -4566,9 +4698,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ushanka ear flap hat",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -4577,9 +4710,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Cowboy hat",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -4600,9 +4734,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "OLI logistics department office key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -4630,9 +4765,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4647,9 +4783,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -4687,9 +4824,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-OB key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -4704,9 +4842,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-ORB3 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -4721,9 +4860,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-ORB1 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "visit",
@@ -4738,9 +4878,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-ORB2 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -4808,7 +4949,8 @@ const main = async () => {
       objectives: [
         {
           type: "plantItem",
-          description: "Stash Ghost balaclava, Shemang (Green), RayBench Hipster Reserve sunglasses and Round frame sunglasses in the specified place",
+          description:
+            "Stash Ghost balaclava, Shemang (Green), RayBench Hipster Reserve sunglasses and Round frame sunglasses in the specified place",
           finish: "4",
           location: {
             map: "Woods",
@@ -4818,21 +4960,25 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ghost balaclava",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Shemagh (Green)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "RayBench Hipster Reserve sunglasses",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Round frame sunglasses",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -4854,9 +5000,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4871,9 +5018,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -4888,9 +5036,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -4922,9 +5071,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Lower half-mask",
-              quantity: "7"
+              found: "0",
+              quantity: "7",
             },
-          ]
+          ],
         },
       ],
     },
@@ -4996,9 +5146,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -5135,9 +5286,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Secure Flash drive",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
       ],
     },
@@ -5256,9 +5408,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Hotel room 215 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -5308,9 +5461,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Primorsky 46-48 skybridge key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -5360,9 +5514,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bars A-2607 95Kh18 knife",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
       ],
     },
@@ -5412,9 +5567,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Kalashnikov AK-74N 5.45x39 assault rifle",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5428,9 +5584,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Colt M4A1 5.56x45 assault rifle Standard",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5444,9 +5601,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Makarov PM 9x18PM pistol",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "shoot",
@@ -5601,9 +5759,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -5618,9 +5777,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -5635,9 +5795,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -5697,9 +5858,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "plantItem",
@@ -5714,9 +5876,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "plantItem",
@@ -5731,9 +5894,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -5774,9 +5938,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Cottage back door key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -5802,9 +5967,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "M.U.L.E. stimulant injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5818,9 +5984,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Obdolbos cocktail injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5834,9 +6001,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Meldonin injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5850,9 +6018,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "AHF1-M stimulant injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5866,9 +6035,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "P22 (Product 22) stimulant injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5882,9 +6052,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "L1 (Norepinephrine) injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -5898,9 +6069,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "3-(b-TG) stimulant injector",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -5921,9 +6093,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort west wing office room 112 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -5942,9 +6115,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "EMERCOM medical unit key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -6011,9 +6185,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Respirator",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6032,9 +6207,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Medical bloodset",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6097,9 +6273,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort office key with a blue tape",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -6148,9 +6325,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RSP-30 reactive signal cartridge (Yellow)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6189,9 +6367,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Keycard with a blue marking",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -6218,9 +6397,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "WI-FI Camera",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "plantItem",
@@ -6235,9 +6415,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "WI-FI Camera",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "plantItem",
@@ -6252,9 +6433,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "WI-FI Camera",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6276,9 +6458,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -6293,9 +6476,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -6310,9 +6494,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -6405,9 +6590,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "6-STEN-140-M military battery",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6421,9 +6607,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "OFZ 30x160mm shell",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6474,13 +6661,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort east wing room 306 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Health Resort east wing room 308 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -6516,9 +6705,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Health Resort west wing room 216 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -6545,9 +6735,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -6562,9 +6753,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -6579,9 +6771,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -6596,9 +6789,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6619,9 +6813,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ski hat with holes for eyes",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6635,9 +6830,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Pilgrim tourist backpack",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6653,9 +6849,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Portable defibrillator",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6674,9 +6871,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "CMS surgical kit",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6710,9 +6908,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "BNTI Gzhel-K body armor",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6726,9 +6925,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "BNTI Gzhel-K body armor",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6750,9 +6950,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "6B43 6A Zabralo-Sh body armor",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6767,9 +6968,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "6B43 6A Zabralo-Sh body armor",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6790,9 +6992,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "WARTECH TV-109 + TV-106 chest rig",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -6806,9 +7009,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "BlackRock chest rig",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6841,9 +7045,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Fuel conditioner",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
-          ]
+          ],
         },
       ],
     },
@@ -6878,9 +7083,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Concordia security room key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -6925,9 +7131,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Primorsky 46-48 skybridge key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -7004,9 +7211,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Abandoned factory marked key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7078,9 +7286,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bronze lion figurine",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -7094,9 +7303,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Horse figurine",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -7110,9 +7320,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Cat figurine",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -7126,9 +7337,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Roler Submariner gold wrist watch",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -7142,9 +7354,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Golden egg",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7179,9 +7392,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -7196,9 +7410,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7218,9 +7433,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7274,9 +7490,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "TerraGroup Labs access keycard",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7287,7 +7504,8 @@ const main = async () => {
       objectives: [
         {
           type: "plantItem",
-          description: "Stash 2 Peltor ComTac and 2 6B47 Helmets in the specified place",
+          description:
+            "Stash 2 Peltor ComTac and 2 6B47 Helmets in the specified place",
           finish: "4",
           location: {
             map: "Interchange",
@@ -7297,13 +7515,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Peltor ComTac 2 headset",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
             {
               name: "6B47 Ratnik-BSh helmet",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "plantItem",
@@ -7317,9 +7537,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "BNTI Gzhel-K body armor",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7395,9 +7616,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bundle of wires",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -7406,9 +7628,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Capacitors",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7467,9 +7690,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -7484,9 +7708,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -7501,9 +7726,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7535,9 +7761,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Virtex programmable processor",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -7546,9 +7773,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Military COFDM Wireless Signal Transmitter",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7612,13 +7840,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "SV-98 7.62x54R bolt-action sniper rifle",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Roler Submariner gold wrist watch",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7707,9 +7937,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Maska-1SCh bulletproof helmet (Killa)",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7757,9 +7988,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Antique teapot",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -7768,9 +8000,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Antique vase",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -7779,9 +8012,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Axel parrot figurine",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -7790,9 +8024,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Raven figurine",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -7850,9 +8085,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Hotel room 206 key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7916,9 +8152,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Iron gate key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7950,9 +8187,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Chekannaya 15 apartment key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "extract",
@@ -7983,9 +8221,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ophthalmoscope",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -7994,9 +8233,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "LEDX Skin Transilluminator",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -8018,13 +8258,15 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Car dealership closed section key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
             {
               name: "Car dealership director's office room key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -8055,9 +8297,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "UHF RFID Reader",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8066,9 +8309,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "VPX Flash Storage Module",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -8193,9 +8437,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8210,9 +8455,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -8250,9 +8496,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-ST key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "plantQuestItem",
@@ -8267,9 +8514,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "RB-ST key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -8296,9 +8544,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Radio repeater",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8313,9 +8562,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Radio repeater",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8330,9 +8580,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Radio repeater",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8347,9 +8598,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Radio repeater",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -8383,9 +8635,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8400,9 +8653,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8417,9 +8671,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "mark",
@@ -8434,9 +8689,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "MS2000 Marker",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -8458,9 +8714,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "SJ1 TGLabs combat stimulant injector",
-              quantity: "20"
+              found: "0",
+              quantity: "20",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8470,9 +8727,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "SJ6 TGLabs combat stimulant injector",
-              quantity: "8"
+              found: "0",
+              quantity: "8",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8482,9 +8740,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "SJ9 TGLabs combat stimulant injector",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
       ],
     },
@@ -8500,9 +8759,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Piece of plexiglass",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8511,9 +8771,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Insulating tape",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8522,9 +8783,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Military circuit board",
-              quantity: "2"
+              found: "0",
+              quantity: "2",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8534,9 +8796,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Military COFDM Wireless Signal Transmitter",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -8545,9 +8808,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Working LCD",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "findQuestItem",
@@ -8878,9 +9142,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Radar station commandant room key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "giveQuestItem",
@@ -9072,9 +9337,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Goshan cash register key",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9132,9 +9398,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Aramid fiber fabric",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -9148,9 +9415,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ripstop fabric",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -9164,9 +9432,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Paracord",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9187,9 +9456,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Fleece fabric",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -9203,9 +9473,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Cordura polyamide fabric",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
         {
           type: "findItem",
@@ -9219,9 +9490,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "KEKTAPE duct tape",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9316,9 +9588,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Portable defibrillator",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9327,9 +9600,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Ophthalmoscope",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9338,9 +9612,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "LEDX Skin Transilluminator",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9349,9 +9624,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Pile of meds",
-              quantity: "20"
+              found: "0",
+              quantity: "20",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9360,9 +9636,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bottle of OLOLO Multivitamins",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9383,9 +9660,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Cultist knife",
-              quantity: "12"
+              found: "0",
+              quantity: "12",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9434,9 +9712,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bottle of Tarkovskaya vodka",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9445,9 +9724,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bottle of Dan Jackiel whiskey",
-              quantity: "10"
+              found: "0",
+              quantity: "10",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9456,9 +9736,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Canister with purified water",
-              quantity: "3"
+              found: "0",
+              quantity: "3",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9467,9 +9748,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Bottle of Pevko Light beer",
-              quantity: "20"
+              found: "0",
+              quantity: "20",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9491,9 +9773,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Trijicon REAP-IR thermal scope",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
         {
           type: "plantItem",
@@ -9508,9 +9791,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Trijicon REAP-IR thermal scope",
-              quantity: "1"
+              found: "0",
+              quantity: "1",
             },
-          ]
+          ],
         },
       ],
     },
@@ -9571,9 +9855,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "VPX Flash Storage Module",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9582,9 +9867,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "UHF RFID Reader",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9593,9 +9879,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Virtex programmable processor",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9604,9 +9891,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Military COFDM Wireless Signal Transmitter",
-              quantity: "5"
+              found: "0",
+              quantity: "5",
             },
-          ]
+          ],
         },
         {
           type: "giveItem",
@@ -9615,9 +9903,10 @@ const main = async () => {
           itemsRequired: [
             {
               name: "Military flash drive",
-              quantity: "4"
+              found: "0",
+              quantity: "4",
             },
-          ]
+          ],
         },
       ],
     },

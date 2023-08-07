@@ -38,7 +38,7 @@ async function questClick(quest) {
     const addQuestButton = document.querySelector(`#addQuest`)
     addQuestButton.addEventListener(`click`, async () => {
         const selectedQuest = response.data
-        let loggedInUserId = localStorage.getItem(`userId`)             //     `648b1ee00ce04c132ed8c501` 
+        let loggedInUserId = localStorage.getItem('userId')            //   localStorage.getItem(`userId`) 
         try {
             const updateResponse = await axios.post(`${BASE_URL}users/${loggedInUserId}`, {
                 quest: selectedQuest

@@ -15,7 +15,7 @@ const mapDiv = document.querySelector(`#map`)
 
 
 async function drawYourQuests() {
-    let loggedInUserId = localStorage.getItem(`userId`)         //   localStorage.getItem(`userId`)  `648b1ee00ce04c132ed8c501`
+    let loggedInUserId = localStorage.getItem('userId')         //   localStorage.getItem(`userId`)  `648b1ee00ce04c132ed8c501`
     if (loggedInUserId != null) {
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let yourQuestData = ``
@@ -96,7 +96,7 @@ mapSelectButtons.forEach(button => {
             e.preventDefault()
         })
 
-        let loggedInUserId = localStorage.getItem(`userId`)              //   `648b1ee00ce04c132ed8c501`
+        let loggedInUserId = localStorage.getItem('userId')             //   `648b1ee00ce04c132ed8c501`   localStorage.getItem(`userId`)
         let response = await axios.get(`${BASE_URL}users/${loggedInUserId}`)
         let quests = response.data.quests
 
@@ -153,7 +153,7 @@ mapSelectButtons.forEach(button => {
                     const itemDiv = document.createElement('div')
                     itemDiv.innerHTML = `
                         <img class="item-required-image" src="${itemResponse.data.image}"/>
-                        <div class="item-required-name" >${itemResponse.data.name}</div>
+                        <div class="item-required-name" >${itemResponse.data.name} 0/${item.quantity}</div>
                     `
                     itemsRequiredDiv.appendChild(itemDiv)
                 }
